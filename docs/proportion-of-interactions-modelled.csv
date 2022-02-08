@@ -1,0 +1,16 @@
+Class.source,Class.target,complete,missing,complete fraction
+Aves,Mammalia,7546,530,0.9343734522040614
+Aves,Reptilia,5383,368,0.9360111284993914
+Aves,Amphibia,4154,205,0.9529708648772655
+Mammalia,Aves,2990,98,0.9682642487046632
+Aves,Aves,7640,71,0.9907923745298923
+Mammalia,Mammalia,3468,48,0.9863481228668942
+Reptilia,NA,0,28,0
+Aves,NA,0,12,0
+Amphibia,Amphibia,4,0,1
+Mammalia,Amphibia,1329,0,1
+Mammalia,Reptilia,2733,0,1
+Reptilia,Amphibia,1341,0,1
+Reptilia,Aves,6322,0,1
+Reptilia,Mammalia,8965,0,1
+Reptilia,Reptilia,7929,0,1
