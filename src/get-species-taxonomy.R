@@ -4,15 +4,15 @@ library(rgbif)
 # species list
 sp <- read_delim("For_the_network_symposium/TetraEU_pairwise_interactions.csv",
                  delim = ";",
-                 show_col_types = FALSE) %>% 
-  filter(sourceLifestageName == 'young and adults', targetLifestageName == 'adults') %>%  
-  dplyr::select(sourceTaxonName, targetTaxonName) %>% 
-  pivot_longer(cols = everything()) %>% 
-  pull(value) %>% 
+                 show_col_types = FALSE) %>%
+  filter(sourceLifestageName == 'young and adults', targetLifestageName == 'adults') %>%
+  dplyr::select(sourceTaxonName, targetTaxonName) %>%
+  pivot_longer(cols = everything()) %>%
+  pull(value) %>%
   unique()
 
 # get taxonomy
-gbif <- lapply(sp, function(x) name_backbone(x)) %>% 
+gbif <- lapply(sp, function(x) name_backbone(x)) %>%
   bind_rows()
 
 # dataframe with taxonomy
@@ -25,16 +25,16 @@ sp <- tibble(
 # dataframe of species IDs
 sp_id <- read_delim("For_the_network_symposium/TetraEU_pairwise_interactions.csv",
                     delim = ";",
-                    show_col_types = FALSE) %>% 
+                    show_col_types = FALSE) %>%
   filter(sourceLifestageName == 'young and adults', targetLifestageName == 'adults') %>%
-  transmute(Species = sourceTaxonName, id = sourceTaxonId) %>% 
+  transmute(Species = sourceTaxonName, id = sourceTaxonId) %>%
   bind_rows(
     read_delim("For_the_network_symposium/TetraEU_pairwise_interactions.csv",
                delim = ";",
-               show_col_types = FALSE) %>% 
+               show_col_types = FALSE) %>%
       filter(sourceLifestageName == 'young and adults', targetLifestageName == 'adults') %>%
       transmute(Species = targetTaxonName, id = targetTaxonId)
-  ) %>% 
+  ) %>%
   distinct_all()
 
 # combine species taxonomy with IDs
