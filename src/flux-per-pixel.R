@@ -7,7 +7,6 @@ library(igraph)
 library(fluxweb)
 library(foreach)
 library(doParallel)
-library(lme4)
 
 #create lm for densities and load env rasters reprojected
 source("src/make_density_models.R") #source it here as it has rm() at the end
@@ -47,48 +46,68 @@ pixel_flux <- function(pagename, temp, suit_th = 0, species_list = c()) {
     filter(PAGENAME == pagename) %>%
     dplyr::select(-PAGENAME)
   sp_sub <- colnames(sp_sub)[which(sp_sub > suit_th)] #species with suit > suit_th
-
+  
   # table of vertebrate 'traits'
   sub_vert <- vert %>%
-    filter(`Species ID` %in% sp_sub) %>%
+    filter(`Species ID` %in% sp_sub) %>% 
     distinct_all()
   if (nrow(sub_vert) < 2) {
     stop("Only one species in this pixel")
   }
   # calculate biomass
-  biomasses <- dens %>%
-    filter(`Species ID` %in% sub_vert$`Species ID`) %>%
-    distinct_all() %>%
+  biomasses <- dens %>% 
+    filter(`Species ID` %in% sub_vert$`Species ID`) %>% 
+    distinct_all() %>% 
     left_join( #add effect of climate
-      env %>%
-        slice_sample(n = 1) %>%
-        pivot_longer(cols = amphibia:reptilia) %>%
+      sub_env %>% 
+        pivot_longer(cols = Amphibia:Reptilia) %>% 
         transmute(Class = gsub("^(\\w)", "\\U\\1\\L\\2", name, perl = TRUE),
                   Env.effect = value),
       by = "Class"
-    ) %>%
-    mutate(Density = Density + Env.effect) %>%
+    ) %>% 
+    mutate(Density = Density + Env.effect) %>% 
     transmute(`Species ID`, Accepted, Class,
               Mass,
               Density = 10 ^ Density, #back-transform densities
-              Biomass = Mass * Density) #biomasses
-
-
+              Density = Density * small_scale_area / cell_size, #adjust for different cellsize
+              Biomass = Mass * Density) %>% #biomasses
+    filter(`Species ID` %in% V(g.metaweb)$name)
+  
   # convert graph to adjancency matrix (simplify and remove isolated vertices)
   sub_g <- induced_subgraph(g.metaweb, biomasses$`Species ID`)
   isolated <- names(which(degree(sub_g, mode = "total") == 0)) #remove isolated nodes
   if (length(isolated) > 0) {
     warning("Pixel ", pagename, ": isolated vertices found - deleting them")
-    sub_g <- sub_g %>% igraph::delete_vertices(isolated) %>%
-      as_adjacency_matrix(sparse = FALSE)
-  } else {
-    sub_g <- sub_g %>% as_adjacency_matrix(sparse = FALSE)
+    sub_g <- sub_g %>% igraph::delete_vertices(isolated)
   }
-  biomasses <- biomasses %>%
-    filter(`Species ID` %in% colnames(sub_g))
-
+  
+  # check for cycles
+  dist <- distances(sub_g, mode = "out")
+  dist[!is.infinite(dist)] <- 1
+  dist[is.infinite(dist)] <- 0
+  dist <- dist + t(dist)
+  cycles <- which(dist > 1, arr.ind = TRUE) %>% 
+    as_tibble() %>% 
+    filter(row != col)
+  if (nrow(cycles) > 0) {
+    warning("Pixel ", pagename, ": cycle(s) found - deleting ", nrow(cycles) / 2, " edges")
+    cycles <- cycles[1:(nrow(cycles) / 2), ]
+    cycles <- lapply(1:nrow(cycles), function(i) cycles[i, sample(1:2, 2)]) %>% 
+      bind_rows()
+    cycle_edges <- sapply(1:nrow(cycles), function(i) 
+      which(E(sub_g) == E(sub_g, P = as.vector(cycles[i, ])))) %>% 
+      sort(decreasing = TRUE)
+    sub_g <- igraph::delete_edges(sub_g, cycle_edges)
+  }
+  
+  sub_g <- sub_g %>%
+    simplify() %>% 
+    as_adjacency_matrix(sparse = FALSE)
+  
+  biomasses <- biomasses %>% filter(`Species ID` %in% colnames(sub_g))
+  
   # fluxing --------
-  biomasses <- biomasses %>%
+  biomasses <- biomasses %>% 
     mutate(`metabolic rate` = modify2(Class, Mass, function(x, y) {
       switch (which(c("Aves", "Mammalia", "Amphibia", "Reptilia") == x),
               exp((0.71 * log10(y) + 19.50) - 0.69 / (boltz * (273.15 + temp))),
@@ -97,18 +116,15 @@ pixel_flux <- function(pagename, temp, suit_th = 0, species_list = c()) {
               exp((0.71 * log10(y) + 18.05) - 0.69 / (boltz * (273.15 + temp)))
       )
     }) %>% as.numeric())
-  # met.rate <- exp((0.71 * log10(biomasses$Mass) + 19.50) - 0.69 / (boltz * (273.15 + temp))) # for endotherms
-  # met.rate[biomasses$Class == "Amphibia"] <- exp((0.71 * log10(biomasses$Mass[biomasses$Class == "Amphibia"]) + 18.05) - 0.69/(boltz*(273.15+temp))) # for amphibians
-  # met.rate[biomasses$Class == "Reptilia"] <- exp((0.71 * log10(biomasses$Mass[biomasses$Class == "Reptilia"]) + 18.02) - 0.69/(boltz*(273.15+temp))) # for reptiles
-
+  
   # pixel, e.g. max(table(env$temp)) == 1 is TRUE
   fluxes <- fluxing(mat = sub_g,
                     biomasses = biomasses$Biomass,
                     losses = biomasses$`metabolic rate`,
                     efficiencies = rep(0.906, nrow(biomasses)))
-
-  focus_species <- which(biomasses$Accepted %in% species_list)
-  if (length(focus_species) > 0) {
+  
+  if (length(species_list) > 0) {
+    focus_species <- which(biomasses$Accepted %in% species_list)
     focus_avg_out <- mean(rowSums(fluxes, na.rm = TRUE)[focus_species] / biomasses$Biomass[focus_species])
     focus_avg_in <- mean(colSums(fluxes, na.rm = TRUE)[focus_species] / biomasses$Biomass[focus_species])
   } else {
@@ -120,12 +136,13 @@ pixel_flux <- function(pagename, temp, suit_th = 0, species_list = c()) {
   fl <- log10(fl)
   avg_out <- mean( rowSums(fl, na.rm = TRUE) / biomasses$Biomass )
   avg_in <- mean( colSums(fl, na.rm = TRUE) / biomasses$Biomass )
-
+  
   output <- tibble(PAGENAME = sub_env$PAGENAME,
                    Temperature = temp,
                    Sum_of_fluxes = sum(fluxes),
                    Number_of_species = nrow(biomasses),
                    Biomasses = list(biomasses$Biomass),
+                   Density = list(biomasses$Density),
                    Avg_out_fluxes = avg_out,
                    Avg_in_fluxes = avg_in,
                    Focus_avg_out_fluxes = focus_avg_out,
@@ -164,7 +181,10 @@ vert <- read_delim(file.path(path, "Original data - FutureWeb/species_codes_and_
 tax <- read_csv("data/interim/backbone-masses.csv", show_col_types = FALSE)
 
 vert <- vert %>% left_join(tax, by = "Species") %>%
-  dplyr::select(-`Mass imputed`, -Species)
+  dplyr::select(-`Mass imputed`, -Species) %>% 
+  group_by(`Species ID`) %>% 
+  slice_sample(n = 1) %>% 
+  ungroup()
 
 modelled_orders <- sapply(1:4, function(i) {
   n <- names(lm_density[[i]])
@@ -195,35 +215,26 @@ dens <- vert %>%
     }
   ) %>% unlist())
 
-# env contains the climatic effect on densities. E.g.:
-set.seed(124124)
-dens %>%
-  slice_sample(prop = .1) %>%
-  left_join(
-    env %>%
-      slice_sample(n = 1) %>%
-      pivot_longer(cols = amphibia:reptilia) %>%
-      transmute(Class = gsub("^(\\w)", "\\U\\1\\L\\2", name, perl = TRUE),
-                Env.effect = value),
-    by = "Class"
-  ) %>%
-  mutate(Density = Density + Env.effect) %>%
-  drop_na() %>%
-  ggplot() +
-  geom_boxplot(aes(Class, Density))
+# print min-max-avg ranges
+for (cl in unique(dens$Class)) {
+  cat(" --- ", cl, " --- \n")
+  cat("Min:", min(env[[cl]], na.rm = TRUE) + min(dens[dens$Class == cl, ][["Density"]]),
+      "\t\tMean: ", mean(env[[cl]], na.rm = TRUE) + mean(dens[dens$Class == cl, ][["Density"]]),
+      "\tMax:", max(env[[cl]], na.rm = TRUE) + max(dens[dens$Class == cl, ][["Density"]]), "\n")
+}
 
 exDF <- tibble(PAGENAME = rownames(px_sp),
                Value = rep(1, nrow(px_sp)),
                PxID = as.numeric(as.factor(PAGENAME)))
 
-# for fluxweb:
-# pass pixel pagename and temperature.
-
 # parallel comps -----------
 # I append each pixel output to a data/final/pixel-fluxes.csv
 # so intermediate results are saved and not needed to compute them
 # again.
-done <- tryCatch(read_csv("data/final/pixel-fluxes.csv", col_names = FALSE) %>%
+# to_do <- env$PAGENAME
+done <- tryCatch(read_csv("data/final/pixel-fluxes.csv", 
+                          show_col_types = FALSE,
+                          col_names = FALSE) %>%
                    pull(X1) %>%
                    unique(),
                  error = function(e) NULL)
@@ -233,32 +244,31 @@ RhpcBLASctl::blas_set_num_threads(1)
 RhpcBLASctl::omp_set_num_threads(1)
 
 # no focus species ------------------
-registerDoParallel(cores = 6)
+registerDoParallel(cores = 4)
 output_file <- "data/final/pixel-fluxes.csv"
 ans <- foreach(pixel = to_do,
                .combine = "rbind",
                .errorhandling = "remove",
                .verbose = FALSE) %dopar% {
                  temp <- terra::extract(temperature,
-                                        env %>%
+                                        env %>% 
                                           filter(PAGENAME == pixel) %>%
                                           dplyr::select(x, y))[["tas"]]
                  if (is.na(temp)) {
                    stop("No temperature recorded for this pixel")
                  }
                  res <- pixel_flux(pixel, temp)
-                 write_csv(res,
-                           output_file,
-                           append = TRUE)
-                 # write_csv(unnest(res[, c("PAGENAME", "Biomasses")], cols = c(Biomasses)),
-                 #           "../pixel-biomasses.csv",
+                 # write_csv(res,
+                 #           output_file,
                  #           append = TRUE)
                  return(res)
                }
 message(length(to_do) - nrow(ans), " of ", length(to_do), " failed.")
 stopImplicitCluster()
 
+write_csv(ans, "data/final/pixel-fluxes.csv")
 
+# rest -------------------------
 
 source("controllers.R") #this load the species list of controllers of:
 # - rodents: regulate_rodents
@@ -277,20 +287,59 @@ source("controllers.R") #this load the species list of controllers of:
 # }
 
 output_file <- "../pixel-fluxes_vole.csv"
-registerDoParallel(cores = 6)
-ans <- foreach(pixel = to_do,
+registerDoParallel(cores = 4)
+ans <- foreach(pixel = sample(to_do, 4),
                .combine = "rbind",
                .errorhandling = "remove",
                .verbose = FALSE) %dopar% {
                  res <- pixel_flux(pixel, species_list = "Microtus arvalis")
-                 write_csv(res[, c("PAGENAME", "Sum_of_fluxes", "Number_of_species",
-                                   "Avg_out_fluxes", "Avg_in_fluxes")],
-                           output_file,
-                           append = TRUE)
-                 # write_csv(unnest(res[, c("PAGENAME", "Biomasses")], cols = c(Biomasses)),
-                 #           "../pixel-biomasses.csv",
+                 # write_csv(res[, c("PAGENAME", "Sum_of_fluxes", "Number_of_species",
+                 #                   "Avg_out_fluxes", "Avg_in_fluxes")],
+                 #           output_file,
                  #           append = TRUE)
                  return(res)
                }
 message(length(to_do) - nrow(ans), " of ", length(to_do), " failed.")
 stopImplicitCluster()
+
+write_csv(ans, "data/final/pixel-fluxes.csv")
+
+ans %>% 
+  group_by(PAGENAME) %>% 
+  mutate(biomass = sum(unlist(Biomasses))) %>% 
+  dplyr::select(PAGENAME, Temperature, Sum_of_fluxes, biomass) %>% 
+  ggplot() +
+  aes(biomass, Sum_of_fluxes) +
+  geom_point(alpha = .1) +
+  scale_x_log10() +
+  scale_y_log10() +
+  xlab("Total biomass") +
+  ylab("Total fluxes") +
+  theme_bw()
+ggsave("docs/plots/flux-vs-biomass.svg", width = 6, height = 4)
+ggsave("docs/plots/flux-vs-biomass.png", width = 6, height = 4, dpi = 600)
+
+dens_stats <- ans %>% 
+  group_by(PAGENAME) %>% 
+  mutate(dens.min = min(unlist(Density)),
+         dens.avg = mean(unlist(Density)),
+         dens.median = median(unlist(Density)),
+         dens.max = max(unlist(Density))) %>% 
+  dplyr::select(starts_with("dens", ignore.case = FALSE)) %>% 
+  ungroup()
+
+dens_stats %>% 
+  rename_with(.cols = starts_with("dens", ignore.case = FALSE), ~toupper(gsub("dens[.]", "", .x))) %>% 
+  mutate(PAGENAME = 1:nrow(.)) %>%
+  pivot_longer(cols = 2:5,
+               names_to = "Statistic",
+               values_to = "dens") %>% 
+  ggplot() +
+  aes(PAGENAME, dens, col = Statistic) +
+  geom_smooth() +
+  scale_y_log10() +
+  xlab("Cell number") +
+  ylab("Density (number of individuals)") +
+  ggsci::scale_color_startrek() +
+  theme_bw()
+ggsave("docs/plots/density-stats.png", width = 6, height = 4, dpi = 600)

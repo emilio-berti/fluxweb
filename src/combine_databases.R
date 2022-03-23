@@ -4,8 +4,6 @@ library(sf)
 library(RODBC)
 library(mice)
 
-setwd(dirname(getActiveDocumentContext()$path))
-
 "%out%" <- Negate("%in%")
 
 # load body mass databases ---------------
@@ -36,7 +34,7 @@ backbone <- backbone %>%
   left_join(amphibians, by = c("Accepted" = "Species"), na_matches = "never") %>%
   mutate(Mass = modify2(Mass.x, Mass.y, function(x, y) ifelse(is.na(x), y, x)),
          Length = modify2(Length.x, Length.y, function(x, y) ifelse(is.na(x), y, x))) %>% 
-  select(-Mass.x, -Mass.y, -Length.x, -Length.y) %>% 
+  dplyr::select(-Mass.x, -Mass.y, -Length.x, -Length.y) %>% 
   distinct_all()
 
 # add bird body mass
@@ -52,7 +50,7 @@ backbone <- backbone %>%
       NA
     }
   })) %>% 
-  select(-Mass.x, - Mass.y) %>% 
+  dplyr::select(-Mass.x, - Mass.y) %>% 
   distinct_all()
 
 # add reptile body mass
@@ -83,7 +81,7 @@ backbone <- backbone %>%
       NA
     }
   })) %>%
-  select(-Mass.x, - Mass.y)
+  dplyr::select(-Mass.x, - Mass.y)
 
 missing <- backbone %>%
   filter(is.na(Class)) %>% 
@@ -104,32 +102,11 @@ Y <- backbone %>%
   filter(!is.na(Order)) %>% 
   mutate(across(where(is.numeric), ~log10(.x))) %>% 
   distinct_all() %>% 
-  select(Species, Family, Mass) %>% 
+  dplyr::select(Species, Family, Mass) %>% 
   as.data.frame()
 
 mi <- mice(data = Y, m = 10, maxit = 10, method = "norm") #impute only mass
-stripplot(mi, Mass ~ .imp, pch = 20, cex = 1)
-# xyplot(mi, Mass ~ .imp, pch = 20, cex = 1)
-# xyplot(mi, Length ~ .imp, pch = 20, cex = 1)
-(10 ^ range(complete(mi)$Mass)) / (10 ^ range(Y$Mass, na.rm = TRUE))
-# (10 ^ range(complete(mi)$Length)) / (10 ^ range(Y$Length, na.rm = TRUE))
-# 10 ^ range(complete(mi)$Length)
-# 10 ^ range(Y$Length, na.rm = TRUE)
-# plot(complete(mi)$Mass ~ complete(mi)$Length, pch = 20, frame = FALSE, col = adjustcolor("grey20", alpha.f = .5))
-# points(Y$Mass ~ Y$Length, pch = 20, col = "tomato")
-plot(mi) # for convergence
-# mass <- Y$Mass
-# fit.mass <- with(mi, lm(Mass ~ Class + Order + Family))
-# ps <- rowMeans(sapply(fit.mass$analyses, fitted.values))
-# fit <- lm(mass[!is.na(mass)] ~ ps[!is.na(mass)])
-densityplot(mi, scales = list(x = list(relation = "free")), thicker = 5)
-ps <- rep(rowMeans(sapply(fit.mass$analyses, fitted.values)), mi$m + 1)
-mass <- complete(mi, "long", TRUE)$Mass
-fit <- lm(mass[!is.na(mass)] ~ ps[!is.na(mass)])
-densityplot(~residuals(fit), group = is.na(mass), plot.points = FALSE, #should overlap largely
-            ref = TRUE, scales = list(y = list(draw = FALSE)),
-            xlab = "Residuals Mass ~ Family",
-            lwd = 2)
+# plot(mi) # for convergence
 
 ### overall good imputations
 fit <- with(mi, lm(Mass ~ Family))
@@ -140,13 +117,6 @@ gamma <- pooled$pooled$fmi
 message("Influence of missing data on estimate uncertainty (proportion): ", round(mean(gamma, na.rm = TRUE), 3)) #aim for 0.2 or < 0.5
 epsilon <- ( 1 + gamma / mi$m ) ^ - 1
 message("Relative efficiency: ", round(mean(epsilon, na.rm = TRUE), 3)) #aim for over 99%
-###
-
-stats <- tibble(parameter = pooled$pooled$term,
-                estimate = pooled$pooled$estimate,
-                sd = sqrt(pooled$pooled$t),
-                low = qnorm(0.025, pooled$pooled$estimate, sqrt(pooled$pooled$t)),
-                high = qnorm(0.975, pooled$pooled$estimate, sqrt(pooled$pooled$t)))
 
 backbone <- backbone %>% 
   left_join(
@@ -167,7 +137,7 @@ sum(backbone$`Mass imputed`) / nrow(backbone)
 
 # load tetra and futureweb --------
 # tetradensity
-tetra <- st_read("data/interim/tetradensity.shp") %>% 
+tetra <- st_read("data/interim/tetradensity.shp") %>%
   select(Species, Density) %>% 
   left_join(backbone, by = "Species")
 

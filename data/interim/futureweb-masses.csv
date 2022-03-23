@@ -1,21 +1,21 @@
 Species,Species ID,Accepted,Class,Order,Family,Mass,Mass imputed
 Alytes cisternasii,A1,Alytes cisternasii,Amphibia,Anura,Alytidae,5.02,FALSE
-Alytes dickhilleni,A2,Alytes dickhilleni,Amphibia,Anura,Alytidae,25.94617074330896,TRUE
+Alytes dickhilleni,A2,Alytes dickhilleni,Amphibia,Anura,Alytidae,11.074764797053678,TRUE
 Alytes muletensis,A3,Alytes muletensis,Amphibia,Anura,Alytidae,2.31,FALSE
 Alytes obstetricans,A4,Alytes obstetricans,Amphibia,Anura,Alytidae,11.7,FALSE
 Bombina bombina,A5,Bombina bombina,Amphibia,Anura,Bombinatoridae,3.07,FALSE
-Bombina pachypus,A6,Bombina pachypus,Amphibia,Anura,Bombinatoridae,474.5395665027233,TRUE
+Bombina pachypus,A6,Bombina pachypus,Amphibia,Anura,Bombinatoridae,290.5349173114532,TRUE
 Bombina variegata,A7,Bombina variegata,Amphibia,Anura,Bombinatoridae,6.32,FALSE
 Bufo bufo,A8,Bufo bufo,Amphibia,Anura,Bufonidae,76.54,FALSE
 Epidalea calamita,A9,Epidalea calamita,Amphibia,Anura,Bufonidae,50.22,FALSE
-Bufo verrucosissimus,A10,Bufo verrucosissimus,Amphibia,Anura,Bufonidae,10952.587458073564,TRUE
+Bufo verrucosissimus,A10,Bufo verrucosissimus,Amphibia,Anura,Bufonidae,32.031834602712244,TRUE
 Bufotes viridis,A11,Bufotes viridis,Amphibia,Anura,Bufonidae,33.18,FALSE
 Chioglossa lusitanica,A12,Chioglossa lusitanica,Amphibia,Caudata,Salamandridae,2,FALSE
 Discoglossus galganoi,A13,Discoglossus galganoi,Amphibia,Anura,Alytidae,18.5,FALSE
-Discoglossus jeanneae,A14,Discoglossus jeanneae,Amphibia,Anura,Alytidae,65.12821566537488,TRUE
-Discoglossus montalentii,A15,Discoglossus montalentii,Amphibia,Anura,Alytidae,14.259734903585528,TRUE
+Discoglossus jeanneae,A14,Discoglossus jeanneae,Amphibia,Anura,Alytidae,4.030200114282673,TRUE
+Discoglossus montalentii,A15,Discoglossus montalentii,Amphibia,Anura,Alytidae,1760.0084103934519,TRUE
 Discoglossus pictus,A16,Discoglossus pictus,Amphibia,Anura,Alytidae,15.85,FALSE
-Discoglossus sardus,A17,Discoglossus sardus,Amphibia,Anura,Alytidae,18.794464305820124,TRUE
+Discoglossus sardus,A17,Discoglossus sardus,Amphibia,Anura,Alytidae,20.806564740786005,TRUE
 Calotriton asper,A18,Calotriton asper,Amphibia,Caudata,Salamandridae,6.62,FALSE
 Euproctus montanus,A19,Euproctus montanus,Amphibia,Caudata,Salamandridae,2.5,FALSE
 Euproctus platycephalus,A20,Euproctus platycephalus,Amphibia,Caudata,Salamandridae,4,FALSE
@@ -23,65 +23,65 @@ Hyla arborea,A21,Hyla arborea,Amphibia,Anura,Hylidae,6.04,FALSE
 Hyla intermedia,A22,Hyla intermedia,Amphibia,Anura,Hylidae,6.28,FALSE
 Hyla meridionalis,A23,Hyla meridionalis,Amphibia,Anura,Hylidae,3.11,FALSE
 Hyla sarda,A24,Hyla sarda,Amphibia,Anura,Hylidae,3.18,FALSE
-Hyla savignyi,A25,Hyla savignyi,Amphibia,Anura,Hylidae,77.96162252365144,TRUE
-Lyciasalamandra antalyana,A26,Lyciasalamandra antalyana,Amphibia,Caudata,Salamandridae,51.35059584509096,TRUE
-Lyciasalamandra atifi,A27,Lyciasalamandra atifi,Amphibia,Caudata,Salamandridae,163.0440991094051,TRUE
-Lyciasalamandra billae,A28,Lyciasalamandra billae,Amphibia,Caudata,Salamandridae,8.964819729297522,TRUE
-Lyciasalamandra fazilae,A29,Lyciasalamandra fazilae,Amphibia,Caudata,Salamandridae,45.47823725402966,TRUE
-Lyciasalamandra flavimembris,A30,Lyciasalamandra flavimembris,Amphibia,Caudata,Salamandridae,248.92658337760597,TRUE
-Lyciasalamandra helverseni,A31,Lyciasalamandra helverseni,Amphibia,Caudata,Salamandridae,312.3778068252914,TRUE
+Hyla savignyi,A25,Hyla savignyi,Amphibia,Anura,Hylidae,28.69184915841076,TRUE
+Lyciasalamandra antalyana,A26,Lyciasalamandra antalyana,Amphibia,Caudata,Salamandridae,15.286146733158322,TRUE
+Lyciasalamandra atifi,A27,Lyciasalamandra atifi,Amphibia,Caudata,Salamandridae,17.714418378201252,TRUE
+Lyciasalamandra billae,A28,Lyciasalamandra billae,Amphibia,Caudata,Salamandridae,68.27070841925946,TRUE
+Lyciasalamandra fazilae,A29,Lyciasalamandra fazilae,Amphibia,Caudata,Salamandridae,32.232293653668144,TRUE
+Lyciasalamandra flavimembris,A30,Lyciasalamandra flavimembris,Amphibia,Caudata,Salamandridae,608.5363764055181,TRUE
+Lyciasalamandra helverseni,A31,Lyciasalamandra helverseni,Amphibia,Caudata,Salamandridae,587.6125427171688,TRUE
 Lyciasalamandra luschani,A32,Lyciasalamandra luschani,Amphibia,Caudata,Salamandridae,2,FALSE
-Mertensiella caucasica,A33,Mertensiella caucasica,Amphibia,Caudata,Salamandridae,5.160781693069364,TRUE
-Neurergus crocatus,A34,Neurergus crocatus,Amphibia,Caudata,Salamandridae,253.30975323807894,TRUE
-Neurergus strauchii,A35,Neurergus strauchii,Amphibia,Caudata,Salamandridae,219.42058718070734,TRUE
+Mertensiella caucasica,A33,Mertensiella caucasica,Amphibia,Caudata,Salamandridae,169.2330321659607,TRUE
+Neurergus crocatus,A34,Neurergus crocatus,Amphibia,Caudata,Salamandridae,4.914864516066319,TRUE
+Neurergus strauchii,A35,Neurergus strauchii,Amphibia,Caudata,Salamandridae,97.8633412206972,TRUE
 Pelobates cultripes,A36,Pelobates cultripes,Amphibia,Anura,Pelobatidae,21.6,FALSE
 Pelobates fuscus,A37,Pelobates fuscus,Amphibia,Anura,Pelobatidae,21.3,FALSE
-Pelobates syriacus,A38,Pelobates syriacus,Amphibia,Anura,Pelobatidae,0.1055372369821493,TRUE
-Pelodytes caucasicus,A39,Pelodytes caucasicus,Amphibia,Anura,Pelodytidae,967.7173995064445,TRUE
+Pelobates syriacus,A38,Pelobates syriacus,Amphibia,Anura,Pelobatidae,35.627241191679204,TRUE
+Pelodytes caucasicus,A39,Pelodytes caucasicus,Amphibia,Anura,Pelodytidae,13.688031328629492,TRUE
 Pelodytes ibericus,A40,Pelodytes ibericus,Amphibia,Anura,Pelodytidae,3.98,FALSE
 Pelodytes punctatus,A41,Pelodytes punctatus,Amphibia,Anura,Pelodytidae,3.03,FALSE
 Pleurodeles waltl,A42,Pleurodeles waltl,Amphibia,Caudata,Salamandridae,25.2,FALSE
 Proteus anguinus,A43,Proteus anguinus,Amphibia,Caudata,Proteidae,13.2,FALSE
 Rana arvalis,A44,Rana arvalis,Amphibia,Anura,Ranidae,10.8,FALSE
-Pelophylax bedriagae,A45,Pelophylax bedriagae,Amphibia,Anura,Ranidae,114.80586424590774,TRUE
-Pelophylax bergeri,A46,Pelophylax bergeri,Amphibia,Anura,Ranidae,1596.5605822215296,TRUE
-Pelophylax cerigensis,A47,Pelophylax cerigensis,Amphibia,Anura,Ranidae,9.777271858799088,TRUE
-Pelophylax cretensis,A48,Pelophylax cretensis,Amphibia,Anura,Ranidae,59.96936041657577,TRUE
+Pelophylax bedriagae,A45,Pelophylax bedriagae,Amphibia,Anura,Ranidae,3.200169250630438,TRUE
+Pelophylax bergeri,A46,Pelophylax bergeri,Amphibia,Anura,Ranidae,0.08761117292521688,TRUE
+Pelophylax cerigensis,A47,Pelophylax cerigensis,Amphibia,Anura,Ranidae,226.62001409738602,TRUE
+Pelophylax cretensis,A48,Pelophylax cretensis,Amphibia,Anura,Ranidae,18.260824124400386,TRUE
 Rana dalmatina,A49,Rana dalmatina,Amphibia,Anura,Ranidae,20.99,FALSE
 Pelophylax epeiroticus,A50,Pelophylax epeiroticus,Amphibia,Anura,Ranidae,48.8,FALSE
 Pelophylax esculentus,A51,Pelophylax lessonae,Amphibia,Anura,Ranidae,36.9,FALSE
 Pelophylax esculentus,A51,Pelophylax lessonae,Amphibia,Anura,Ranidae,30.8,FALSE
-Rana graeca,A52,Rana graeca,Amphibia,Anura,Ranidae,23.244557921747024,TRUE
-Pelophylax kl. grafi,A53,Pelophylax,Amphibia,Anura,Ranidae,11.891582332205521,TRUE
-Pelophylax kl. hispanicus,A54,Pelophylax,Amphibia,Anura,Ranidae,64.2542608038287,TRUE
+Rana graeca,A52,Rana graeca,Amphibia,Anura,Ranidae,23.46886914967933,TRUE
+Pelophylax kl. grafi,A53,Pelophylax,Amphibia,Anura,Ranidae,57.89151600809394,TRUE
+Pelophylax kl. hispanicus,A54,Pelophylax,Amphibia,Anura,Ranidae,99.71368300695043,TRUE
 Rana iberica,A55,Rana iberica,Amphibia,Anura,Ranidae,6.03,FALSE
-Rana italica,A56,Rana italica,Amphibia,Anura,Ranidae,9.974833232293928,TRUE
-Pelophylax kurtmuelleri,A57,Pelophylax kurtmuelleri,Amphibia,Anura,Ranidae,158.78039925667662,TRUE
-Rana latastei,A58,Rana latastei,Amphibia,Anura,Ranidae,0.10597710336560145,TRUE
+Rana italica,A56,Rana italica,Amphibia,Anura,Ranidae,2615.856237385373,TRUE
+Pelophylax kurtmuelleri,A57,Pelophylax kurtmuelleri,Amphibia,Anura,Ranidae,9.869553165544595,TRUE
+Rana latastei,A58,Rana latastei,Amphibia,Anura,Ranidae,4.729883062880548,TRUE
 Pelophylax lessonae,A59,Pelophylax lessonae,Amphibia,Anura,Ranidae,36.9,FALSE
 Pelophylax lessonae,A59,Pelophylax lessonae,Amphibia,Anura,Ranidae,30.8,FALSE
-Rana macrocnemis,A60,Rana macrocnemis,Amphibia,Anura,Ranidae,76.71155910925557,TRUE
+Rana macrocnemis,A60,Rana macrocnemis,Amphibia,Anura,Ranidae,19.696439610769243,TRUE
 Pelophylax perezi,A61,Pelophylax perezi,Amphibia,Anura,Ranidae,21.56,FALSE
-Rana pyrenaica,A62,Rana pyrenaica,Amphibia,Anura,Ranidae,143.60268797333677,TRUE
+Rana pyrenaica,A62,Rana pyrenaica,Amphibia,Anura,Ranidae,30.7275614405573,TRUE
 Pelophylax ridibundus,A63,Pelophylax ridibundus,Amphibia,Anura,Ranidae,35.53,FALSE
-Pelophylax shqipericus,A64,Pelophylax shqipericus,Amphibia,Anura,Ranidae,90.13138704790941,TRUE
-Rana tavasensis,A65,Rana tavasensis,Amphibia,Anura,Ranidae,109.94909188030107,TRUE
+Pelophylax shqipericus,A64,Pelophylax shqipericus,Amphibia,Anura,Ranidae,152.013836494896,TRUE
+Rana tavasensis,A65,Rana tavasensis,Amphibia,Anura,Ranidae,823.5939116993258,TRUE
 Rana temporaria,A66,Rana temporaria,Amphibia,Anura,Ranidae,42.24,FALSE
 Salamandra atra,A67,Salamandra atra,Amphibia,Caudata,Salamandridae,8.2,FALSE
-Salamandra corsica,A68,Salamandra corsica,Amphibia,Caudata,Salamandridae,19.853926789942257,TRUE
-Salamandra infraimmaculata,A69,Salamandra infraimmaculata,Amphibia,Caudata,Salamandridae,110.98008512155072,TRUE
+Salamandra corsica,A68,Salamandra corsica,Amphibia,Caudata,Salamandridae,1058.970798397414,TRUE
+Salamandra infraimmaculata,A69,Salamandra infraimmaculata,Amphibia,Caudata,Salamandridae,20.180853593320887,TRUE
 Salamandra lanzai,A70,Salamandra lanzai,Amphibia,Caudata,Salamandridae,12.2,FALSE
 Salamandra salamandra,A71,Salamandra salamandra,Amphibia,Caudata,Salamandridae,35.23,FALSE
-Salamandrella keyserlingii,A72,Salamandrella keyserlingii,Amphibia,Caudata,Hynobiidae,2282.6393893552154,TRUE
-Salamandrina perspicillata,A73,Salamandrina perspicillata,Amphibia,Caudata,Salamandridae,9.061177187933657,TRUE
-Salamandrina terdigitata,A74,Salamandrina terdigitata,Amphibia,Caudata,Salamandridae,780.5522647977192,TRUE
+Salamandrella keyserlingii,A72,Salamandrella keyserlingii,Amphibia,Caudata,Hynobiidae,10.840332634250707,TRUE
+Salamandrina perspicillata,A73,Salamandrina perspicillata,Amphibia,Caudata,Salamandridae,5.660814708523265,TRUE
+Salamandrina terdigitata,A74,Salamandrina terdigitata,Amphibia,Caudata,Salamandridae,1.0986189698190312,TRUE
 Speleomantes ambrosii,A75,Speleomantes ambrosii,Amphibia,Caudata,Plethodontidae,2.26,FALSE
-Speleomantes flavus,A76,Speleomantes flavus,Amphibia,Caudata,Plethodontidae,317.5793231330547,TRUE
+Speleomantes flavus,A76,Speleomantes flavus,Amphibia,Caudata,Plethodontidae,2.4601493981382703,TRUE
 Speleomantes genei,A77,Speleomantes genei,Amphibia,Caudata,Plethodontidae,3.92,FALSE
 Speleomantes imperialis,A78,Speleomantes imperialis,Amphibia,Caudata,Plethodontidae,3.92,FALSE
 Speleomantes italicus,A79,Speleomantes italicus,Amphibia,Caudata,Plethodontidae,2.88,FALSE
-Speleomantes sarrabusensis,A80,Speleomantes sarrabusensis,Amphibia,Caudata,Plethodontidae,51.549366372402424,TRUE
-Speleomantes strinatii,A81,Speleomantes strinatii,Amphibia,Caudata,Plethodontidae,127.36609799639501,TRUE
+Speleomantes sarrabusensis,A80,Speleomantes sarrabusensis,Amphibia,Caudata,Plethodontidae,1.3251182101968804,TRUE
+Speleomantes strinatii,A81,Speleomantes strinatii,Amphibia,Caudata,Plethodontidae,122.75763188285634,TRUE
 Speleomantes supramontis,A82,Speleomantes supramontis,Amphibia,Caudata,Plethodontidae,5.08,FALSE
 Ichthyosaura alpestris,A83,Ichthyosaura alpestris,Amphibia,Caudata,Salamandridae,2.96,FALSE
 Lissotriton boscai,A84,Lissotriton boscai,Amphibia,Caudata,Salamandridae,1.77,FALSE
@@ -90,21 +90,21 @@ Triturus cristatus,A86,Triturus cristatus,Amphibia,Caudata,Salamandridae,7.34,FA
 Triturus dobrogicus,A87,Triturus dobrogicus,Amphibia,Caudata,Salamandridae,4.7,FALSE
 Lissotriton helveticus,A88,Lissotriton helveticus,Amphibia,Caudata,Salamandridae,1.3,FALSE
 Lissotriton italicus,A89,Lissotriton italicus,Amphibia,Caudata,Salamandridae,0.98,FALSE
-Triturus karelinii,A90,Triturus karelinii,Amphibia,Caudata,Salamandridae,82.83972628197971,TRUE
+Triturus karelinii,A90,Triturus karelinii,Amphibia,Caudata,Salamandridae,1168.8433670908792,TRUE
 Triturus marmoratus,A91,Triturus marmoratus,Amphibia,Caudata,Salamandridae,8.91,FALSE
 Lissotriton montandoni,A92,Lissotriton montandoni,Amphibia,Caudata,Salamandridae,2.15,FALSE
 Triturus pygmaeus,A93,Triturus pygmaeus,Amphibia,Caudata,Salamandridae,2.94,FALSE
-Ommatotriton vittatus,A94,Ommatotriton vittatus,Amphibia,Caudata,Salamandridae,691.986668988574,TRUE
+Ommatotriton vittatus,A94,Ommatotriton vittatus,Amphibia,Caudata,Salamandridae,124.87207255429868,TRUE
 Lissotriton vulgaris,A95,Lissotriton vulgaris,Amphibia,Caudata,Salamandridae,2.68,FALSE
-Pelophylax caralitanus,A96,Pelophylax caralitanus,Amphibia,Anura,Ranidae,955.4002545850074,TRUE
-Ommatotriton ophryticus,A97,Ommatotriton ophryticus,Amphibia,Caudata,Salamandridae,6.500389134394503,TRUE
-Rana macrocnemis holtzi,A98,Rana macrocnemis,Amphibia,Anura,Ranidae,89.22810714349593,TRUE
-Calotriton arnoldi,A99,Calotriton arnoldi,Amphibia,Caudata,Salamandridae,23.81125042283412,TRUE
-Bufotes balearica,A100,Bufotes balearicus,Amphibia,Anura,Bufonidae,3.2701385223814583,TRUE
-Bufotes boulengeri,A101,Bufotes boulengeri,Amphibia,Anura,Bufonidae,274.3982321489021,TRUE
-Bufotes sicula,A102,Bufotes siculus,Amphibia,Anura,Bufonidae,559.7418301786471,TRUE
-Bufotes variabilis,A103,Bufotes variabilis,Amphibia,Anura,Bufonidae,198.07594516553036,TRUE
-Triturus macedonicus,A104,Triturus macedonicus,Amphibia,Caudata,Salamandridae,181.55829768106256,TRUE
+Pelophylax caralitanus,A96,Pelophylax caralitanus,Amphibia,Anura,Ranidae,9.35768785273772,TRUE
+Ommatotriton ophryticus,A97,Ommatotriton ophryticus,Amphibia,Caudata,Salamandridae,168.72267155508334,TRUE
+Rana macrocnemis holtzi,A98,Rana macrocnemis,Amphibia,Anura,Ranidae,23.266048160272508,TRUE
+Calotriton arnoldi,A99,Calotriton arnoldi,Amphibia,Caudata,Salamandridae,0.8748282615755434,TRUE
+Bufotes balearica,A100,Bufotes balearicus,Amphibia,Anura,Bufonidae,183.17788281615142,TRUE
+Bufotes boulengeri,A101,Bufotes boulengeri,Amphibia,Anura,Bufonidae,145.1948563216951,TRUE
+Bufotes sicula,A102,Bufotes siculus,Amphibia,Anura,Bufonidae,5.756914935644814,TRUE
+Bufotes variabilis,A103,Bufotes variabilis,Amphibia,Anura,Bufonidae,106.00207478633355,TRUE
+Triturus macedonicus,A104,Triturus macedonicus,Amphibia,Caudata,Salamandridae,57.8770869997245,TRUE
 Gavia stellata,B1,Gavia stellata,Aves,Gaviiformes,Gaviidae,1486,FALSE
 Gavia arctica,B2,Gavia arctica,Aves,Gaviiformes,Gaviidae,2251.1,FALSE
 Gavia immer,B3,Gavia immer,Aves,Gaviiformes,Gaviidae,4956.81,FALSE
@@ -131,12 +131,12 @@ Phaethon aethereus,B23,Phaethon aethereus,Aves,Phaethontiformes,Phaethontidae,74
 Morus bassanus,B24,Morus bassanus,Aves,Suliformes,Sulidae,2998.74,FALSE
 Phalacrocorax carbo,B25,Phalacrocorax carbo,Aves,Suliformes,Phalacrocoracidae,2528.97,FALSE
 Phalacrocorax aristotelis,B26,Phalacrocorax aristotelis,Aves,Suliformes,Phalacrocoracidae,1764.34,FALSE
-Phalacrocorax pygmaeus,B27,Phalacrocorax pygmaeus,Aves,Suliformes,Phalacrocoracidae,12.401736081599052,TRUE
+Phalacrocorax pygmaeus,B27,Phalacrocorax pygmaeus,Aves,Suliformes,Phalacrocoracidae,4.858771903488927,TRUE
 Pelecanus onocrotalus,B28,Pelecanus onocrotalus,Aves,Pelecaniformes,Pelecanidae,9322.31,FALSE
 Pelecanus crispus,B29,Pelecanus crispus,Aves,Pelecaniformes,Pelecanidae,9512.09,FALSE
 Ardea cinerea,B30,Ardea cinerea,Aves,Pelecaniformes,Ardeidae,1443,FALSE
 Ardea purpurea,B31,Ardea purpurea,Aves,Pelecaniformes,Ardeidae,1064.48,FALSE
-Ardea alba,B32,Ardea alba,Aves,Pelecaniformes,Ardeidae,70.36007936069186,TRUE
+Ardea alba,B32,Ardea alba,Aves,Pelecaniformes,Ardeidae,2720.1384373277488,TRUE
 Egretta garzetta,B33,Egretta garzetta,Aves,Pelecaniformes,Ardeidae,312,FALSE
 Ardeola ralloides,B34,Ardeola ralloides,Aves,Pelecaniformes,Ardeidae,287,FALSE
 Bubulcus ibis,B35,Bubulcus ibis,Aves,Pelecaniformes,Ardeidae,365.95,FALSE
@@ -213,7 +213,7 @@ Aquila nipalensis,B108,Aquila nipalensis,Aves,Accipitriformes,Accipitridae,2714.
 Aquila adalberti,B109,Aquila adalberti,Aves,Accipitriformes,Accipitridae,2958.03,FALSE
 Aquila heliaca,B110,Aquila heliaca,Aves,Accipitriformes,Accipitridae,3125.21,FALSE
 Aquila chrysaetos,B111,Aquila chrysaetos,Aves,Accipitriformes,Accipitridae,4247.97,FALSE
-Aquila fasciata,B112,Aquila fasciata,Aves,Accipitriformes,Accipitridae,15.585718430386402,TRUE
+Aquila fasciata,B112,Aquila fasciata,Aves,Accipitriformes,Accipitridae,222.8037729349159,TRUE
 Hieraaetus pennatus,B113,Hieraaetus pennatus,Aves,Accipitriformes,Accipitridae,823.75,FALSE
 Falco naumanni,B114,Falco naumanni,Aves,Falconiformes,Falconidae,152.06,FALSE
 Falco tinnunculus,B115,Falco tinnunculus,Aves,Falconiformes,Falconidae,183.21,FALSE
@@ -228,9 +228,9 @@ Falco peregrinus,B123,Falco peregrinus,Aves,Falconiformes,Falconidae,759.95,FALS
 Lagopus lagopus,B124,Lagopus lagopus,Aves,Galliformes,Phasianidae,566.86,FALSE
 Lagopus muta,B125,Lagopus muta,Aves,Galliformes,Phasianidae,535.3,FALSE
 Tetrao urogallus,B126,Tetrao urogallus,Aves,Galliformes,Phasianidae,2716.61,FALSE
-Lyrurus tetrix,B127,Lyrurus tetrix,Aves,Galliformes,Phasianidae,25.550159913829898,TRUE
-Lyrurus mlokosiewiczi,B128,Lyrurus mlokosiewiczi,Aves,Galliformes,Phasianidae,404.00518212692157,TRUE
-Tetrastes bonasia,B129,Tetrastes bonasia,Aves,Galliformes,Phasianidae,51.678281782758305,TRUE
+Lyrurus tetrix,B127,Lyrurus tetrix,Aves,Galliformes,Phasianidae,114.4281017853928,TRUE
+Lyrurus mlokosiewiczi,B128,Lyrurus mlokosiewiczi,Aves,Galliformes,Phasianidae,91.32625216498018,TRUE
+Tetrastes bonasia,B129,Tetrastes bonasia,Aves,Galliformes,Phasianidae,398.0262244391694,TRUE
 Tetraogallus caucasicus,B130,Tetraogallus caucasicus,Aves,Galliformes,Phasianidae,1830.79,FALSE
 Tetraogallus caspius,B131,Tetraogallus caspius,Aves,Galliformes,Phasianidae,2508.24,FALSE
 Alectoris graeca,B132,Alectoris graeca,Aves,Galliformes,Phasianidae,594.11,FALSE
@@ -243,7 +243,7 @@ Perdix perdix,B138,Perdix perdix,Aves,Galliformes,Phasianidae,405.3,FALSE
 Coturnix coturnix,B139,Coturnix coturnix,Aves,Galliformes,Phasianidae,96.28,FALSE
 Phasianus colchicus,B140,Phasianus colchicus,Aves,Galliformes,Phasianidae,1120.31,FALSE
 Turnix sylvaticus,B141,Turnix sylvaticus,Aves,Charadriiformes,Turnicidae,52.69,FALSE
-Anthropoides virgo,B142,Anthropoides virgo,Aves,Gruiformes,Gruidae,6.118103139784087,TRUE
+Anthropoides virgo,B142,Anthropoides virgo,Aves,Gruiformes,Gruidae,5.438556250607787,TRUE
 Grus grus,B143,Grus grus,Aves,Gruiformes,Gruidae,5499.99,FALSE
 Rallus aquaticus,B144,Rallus aquaticus,Aves,Gruiformes,Rallidae,110.67,FALSE
 Crex crex,B145,Crex crex,Aves,Gruiformes,Rallidae,154.91,FALSE
@@ -273,7 +273,7 @@ Charadrius dubius,B169,Charadrius dubius,Aves,Charadriiformes,Charadriidae,38.7,
 Charadrius alexandrinus,B170,Charadrius alexandrinus,Aves,Charadriiformes,Charadriidae,42.3,FALSE
 Charadrius leschenaultii,B171,Charadrius leschenaultii,Aves,Charadriiformes,Charadriidae,74.8,FALSE
 Charadrius asiaticus,B172,Charadrius asiaticus,Aves,Charadriiformes,Charadriidae,77.09,FALSE
-Charadrius morinellus,B173,Charadrius morinellus,Aves,Charadriiformes,Charadriidae,24.22306474132089,TRUE
+Charadrius morinellus,B173,Charadrius morinellus,Aves,Charadriiformes,Charadriidae,1478.426425617668,TRUE
 Scolopax rusticola,B174,Scolopax rusticola,Aves,Charadriiformes,Scolopacidae,308.31,FALSE
 Lymnocryptes minimus,B175,Lymnocryptes minimus,Aves,Charadriiformes,Scolopacidae,50.07,FALSE
 Gallinago stenura,B176,Gallinago stenura,Aves,Charadriiformes,Scolopacidae,113,FALSE
@@ -303,12 +303,12 @@ Limicola falcinellus,B199,Limicola falcinellus,Aves,Charadriiformes,Scolopacidae
 Philomachus pugnax,B200,Philomachus pugnax,Aves,Charadriiformes,Scolopacidae,131.68,FALSE
 Phalaropus lobatus,B201,Phalaropus lobatus,Aves,Charadriiformes,Scolopacidae,36.68,FALSE
 Phalaropus fulicarius,B202,Phalaropus fulicarius,Aves,Charadriiformes,Scolopacidae,55.59,FALSE
-Stercorarius skua,B203,Stercorarius skua,Aves,Charadriiformes,Stercorariidae,8.250506988035722,TRUE
+Stercorarius skua,B203,Stercorarius skua,Aves,Charadriiformes,Stercorariidae,1.2042399299522568,TRUE
 Stercorarius pomarinus,B204,Stercorarius pomarinus,Aves,Charadriiformes,Stercorariidae,692.47,FALSE
 Stercorarius parasiticus,B205,Stercorarius parasiticus,Aves,Charadriiformes,Stercorariidae,444.31,FALSE
 Stercorarius longicaudus,B206,Stercorarius longicaudus,Aves,Charadriiformes,Stercorariidae,287.9,FALSE
 Larus canus,B207,Larus canus,Aves,Charadriiformes,Laridae,412.53,FALSE
-Ichthyaetus audouinii,B208,Ichthyaetus audouinii,Aves,Charadriiformes,Laridae,3.3169823384825996,TRUE
+Ichthyaetus audouinii,B208,Ichthyaetus audouinii,Aves,Charadriiformes,Laridae,88.48167290547417,TRUE
 Larus marinus,B209,Larus marinus,Aves,Charadriiformes,Laridae,1649.71,FALSE
 Larus hyperboreus,B210,Larus hyperboreus,Aves,Charadriiformes,Laridae,1529.04,FALSE
 Larus glaucoides,B211,Larus glaucoides,Aves,Charadriiformes,Laridae,693.31,FALSE
@@ -316,23 +316,23 @@ Larus argentatus,B212,Larus argentatus,Aves,Charadriiformes,Laridae,1090.99,FALS
 Larus fuscus,B213,Larus fuscus,Aves,Charadriiformes,Laridae,762.36,FALSE
 Larus cachinnans,B214,Larus cachinnans,Aves,Charadriiformes,Laridae,1111.89,FALSE
 Larus armenicus,B215,Larus armenicus,Aves,Charadriiformes,Laridae,866.99,FALSE
-Ichthyaetus ichthyaetus,B216,Ichthyaetus ichthyaetus,Aves,Charadriiformes,Laridae,2864.4193648356722,TRUE
-Chtoicocephalus ridibundus,B217,Chroicocephalus ridibundus,Aves,Charadriiformes,Laridae,26.78055377736093,TRUE
-Chroicocephalus genei,B218,Chroicocephalus genei,Aves,Charadriiformes,Laridae,0.7535639411152667,TRUE
-Ichthyaetus melanocephalus,B219,Ichthyaetus melanocephalus,Aves,Charadriiformes,Laridae,121.88035778276434,TRUE
-Hydrocoloeus minutus,B220,Hydrocoloeus minutus,Aves,Charadriiformes,Laridae,18.09319109416917,TRUE
+Ichthyaetus ichthyaetus,B216,Ichthyaetus ichthyaetus,Aves,Charadriiformes,Laridae,1.7473493843677577,TRUE
+Chtoicocephalus ridibundus,B217,Chroicocephalus ridibundus,Aves,Charadriiformes,Laridae,2.6768642058083465,TRUE
+Chroicocephalus genei,B218,Chroicocephalus genei,Aves,Charadriiformes,Laridae,16.44742735388337,TRUE
+Ichthyaetus melanocephalus,B219,Ichthyaetus melanocephalus,Aves,Charadriiformes,Laridae,19.168917438850556,TRUE
+Hydrocoloeus minutus,B220,Hydrocoloeus minutus,Aves,Charadriiformes,Laridae,1518.114289816517,TRUE
 Pagophila eburnea,B221,Pagophila eburnea,Aves,Charadriiformes,Laridae,549.99,FALSE
 Xema sabini,B222,Xema sabini,Aves,Charadriiformes,Laridae,198,FALSE
 Rissa tridactyla,B223,Rissa tridactyla,Aves,Charadriiformes,Laridae,415.99,FALSE
-Gelochelidon nilotica,B224,Gelochelidon nilotica,Aves,Charadriiformes,Laridae,8.200023275777879,TRUE
-Hydroprogne caspia,B225,Hydroprogne caspia,Aves,Charadriiformes,Laridae,2.3605155175190715,TRUE
-Thalasseus bengalensis,B226,Thalasseus bengalensis,Aves,Charadriiformes,Laridae,170.17780498022827,TRUE
-Thalasseus sandvicensis,B227,Thalasseus sandvicensis,Aves,Charadriiformes,Laridae,38.85891880699573,TRUE
+Gelochelidon nilotica,B224,Gelochelidon nilotica,Aves,Charadriiformes,Laridae,4525.341956501161,TRUE
+Hydroprogne caspia,B225,Hydroprogne caspia,Aves,Charadriiformes,Laridae,22.45540426717089,TRUE
+Thalasseus bengalensis,B226,Thalasseus bengalensis,Aves,Charadriiformes,Laridae,25.13233453030392,TRUE
+Thalasseus sandvicensis,B227,Thalasseus sandvicensis,Aves,Charadriiformes,Laridae,2306.219836192454,TRUE
 Sterna dougallii,B228,Sterna dougallii,Aves,Charadriiformes,Laridae,112,FALSE
 Sterna hirundo,B229,Sterna hirundo,Aves,Charadriiformes,Laridae,129.15,FALSE
 Sterna paradisaea,B230,Sterna paradisaea,Aves,Charadriiformes,Laridae,110,FALSE
-Sternula albifrons,B231,Sternula albifrons,Aves,Charadriiformes,Laridae,175.92069780094863,TRUE
-Onychoprion fuscatus,B232,Onychoprion fuscatus,Aves,Charadriiformes,Laridae,237.1620301827689,TRUE
+Sternula albifrons,B231,Sternula albifrons,Aves,Charadriiformes,Laridae,291.22906890210965,TRUE
+Onychoprion fuscatus,B232,Onychoprion fuscatus,Aves,Charadriiformes,Laridae,0.019934114729032174,TRUE
 Chlidonias hybrida,B233,Chlidonias hybrida,Aves,Charadriiformes,Laridae,83.67,FALSE
 Chlidonias leucopterus,B234,Chlidonias leucopterus,Aves,Charadriiformes,Laridae,54.2,FALSE
 Chlidonias niger,B235,Chlidonias niger,Aves,Charadriiformes,Laridae,65.3,FALSE
@@ -350,7 +350,7 @@ Columba palumbus,B246,Columba palumbus,Aves,Columbiformes,Columbidae,490,FALSE
 Columba trocaz,B247,Columba trocaz,Aves,Columbiformes,Columbidae,439.98,FALSE
 Streptopelia turtur,B248,Streptopelia turtur,Aves,Columbiformes,Columbidae,132,FALSE
 Streptopelia decaocto,B249,Streptopelia decaocto,Aves,Columbiformes,Columbidae,148.96,FALSE
-Streptopelia senegalensis,B250,Spilopelia senegalensis,Aves,Columbiformes,Columbidae,41.2863127977004,TRUE
+Streptopelia senegalensis,B250,Spilopelia senegalensis,Aves,Columbiformes,Columbidae,32.651199640740685,TRUE
 Clamator glandarius,B251,Clamator glandarius,Aves,Cuculiformes,Cuculidae,143,FALSE
 Cuculus canorus,B252,Cuculus canorus,Aves,Cuculiformes,Cuculidae,111.36,FALSE
 Cuculus saturatus,B253,Cuculus saturatus,Aves,Cuculiformes,Cuculidae,87,FALSE
@@ -358,7 +358,7 @@ Tyto alba,B254,Tyto alba,Aves,Strigiformes,Tytonidae,403.32,FALSE
 Otus brucei,B255,Otus brucei,Aves,Strigiformes,Strigidae,84.35,FALSE
 Otus scops,B256,Otus scops,Aves,Strigiformes,Strigidae,92,FALSE
 Bubo bubo,B257,Bubo bubo,Aves,Strigiformes,Strigidae,2668.51,FALSE
-Bubo scandiacus,B258,Bubo scandiacus,Aves,Strigiformes,Strigidae,154.62125437743077,TRUE
+Bubo scandiacus,B258,Bubo scandiacus,Aves,Strigiformes,Strigidae,317.39429076495327,TRUE
 Strix aluco,B259,Strix aluco,Aves,Strigiformes,Strigidae,472.46,FALSE
 Strix uralensis,B260,Strix uralensis,Aves,Strigiformes,Strigidae,780.56,FALSE
 Strix nebulosa,B261,Strix nebulosa,Aves,Strigiformes,Strigidae,1061.89,FALSE
@@ -370,7 +370,7 @@ Asio otus,B266,Asio otus,Aves,Strigiformes,Strigidae,296.57,FALSE
 Asio flammeus,B267,Asio flammeus,Aves,Strigiformes,Strigidae,322.61,FALSE
 Caprimulgus ruficollis,B268,Caprimulgus ruficollis,Aves,Caprimulgiformes,Caprimulgidae,68.5,FALSE
 Caprimulgus europaeus,B269,Caprimulgus europaeus,Aves,Caprimulgiformes,Caprimulgidae,67,FALSE
-Apus melba,B270,Tachymarptis melba,Aves,Apodiformes,Apodidae,45.42716493634028,TRUE
+Apus melba,B270,Tachymarptis melba,Aves,Apodiformes,Apodidae,28.21482269750819,TRUE
 Apus apus,B271,Apus apus,Aves,Apodiformes,Apodidae,37.6,FALSE
 Apus unicolor,B272,Apus unicolor,Aves,Apodiformes,Apodidae,22.5,FALSE
 Apus pallidus,B273,Apus pallidus,Aves,Apodiformes,Apodidae,41.9,FALSE
@@ -405,9 +405,9 @@ Lullula arborea,B302,Lullula arborea,Aves,Passeriformes,Alaudidae,26.9,FALSE
 Alauda arvensis,B303,Alauda arvensis,Aves,Passeriformes,Alaudidae,37.31,FALSE
 Eremophila alpestris,B304,Eremophila alpestris,Aves,Passeriformes,Alaudidae,33.33,FALSE
 Riparia riparia,B305,Riparia riparia,Aves,Passeriformes,Hirundinidae,12.68,FALSE
-Ptyonoprogne rupestris,B306,Ptyonoprogne rupestris,Aves,Passeriformes,Hirundinidae,1.1433149785139765,TRUE
+Ptyonoprogne rupestris,B306,Ptyonoprogne rupestris,Aves,Passeriformes,Hirundinidae,1541.5097929767492,TRUE
 Hirundo rustica,B307,Hirundo rustica,Aves,Passeriformes,Hirundinidae,17.91,FALSE
-Cecropis daurica,B308,Cecropis daurica,Aves,Passeriformes,Hirundinidae,2.5213173208892687,TRUE
+Cecropis daurica,B308,Cecropis daurica,Aves,Passeriformes,Hirundinidae,0.373743831665272,TRUE
 Delichon urbicum,B309,Delichon urbicum,Aves,Passeriformes,Hirundinidae,14.5,FALSE
 Motacilla alba,B310,Motacilla alba,Aves,Passeriformes,Motacillidae,23.93,FALSE
 Motacilla citreola,B311,Motacilla citreola,Aves,Passeriformes,Motacillidae,19.11,FALSE
@@ -457,17 +457,17 @@ Acrocephalus scirpaceus,B354,Acrocephalus scirpaceus,Aves,Passeriformes,Acroceph
 Acrocephalus dumetorum,B355,Acrocephalus dumetorum,Aves,Passeriformes,Acrocephalidae,11.2,FALSE
 Acrocephalus palustris,B356,Acrocephalus palustris,Aves,Passeriformes,Acrocephalidae,11.5,FALSE
 Acrocephalus arundinaceus,B357,Acrocephalus arundinaceus,Aves,Passeriformes,Acrocephalidae,30,FALSE
-Iduna caligata,B358,Iduna caligata,Aves,Passeriformes,Acrocephalidae,157.9199951025753,TRUE
-Iduna pallida,B359,Iduna pallida,Aves,Passeriformes,Acrocephalidae,344.8585842927115,TRUE
+Iduna caligata,B358,Iduna caligata,Aves,Passeriformes,Acrocephalidae,26.6297677003743,TRUE
+Iduna pallida,B359,Iduna pallida,Aves,Passeriformes,Acrocephalidae,13.901083938259296,TRUE
 Hippolais languida,B360,Hippolais languida,Aves,Passeriformes,Acrocephalidae,12,FALSE
 Hippolais olivetorum,B361,Hippolais olivetorum,Aves,Passeriformes,Acrocephalidae,17.5,FALSE
 Hippolais polyglotta,B362,Hippolais polyglotta,Aves,Passeriformes,Acrocephalidae,11,FALSE
 Hippolais icterina,B363,Hippolais icterina,Aves,Passeriformes,Acrocephalidae,13.2,FALSE
 Phylloscopus trochilus,B364,Phylloscopus trochilus,Aves,Passeriformes,Phylloscopidae,8.7,FALSE
 Phylloscopus collybita,B365,Phylloscopus collybita,Aves,Passeriformes,Phylloscopidae,8.3,FALSE
-Phylloscopus sindianus lorenzii,B366,Phylloscopus sindianus lorenzii,Aves,Passeriformes,Phylloscopidae,65.19287441389345,TRUE
+Phylloscopus sindianus lorenzii,B366,Phylloscopus sindianus lorenzii,Aves,Passeriformes,Phylloscopidae,15.390266874477641,TRUE
 Phylloscopus bonelli,B367,Phylloscopus bonelli,Aves,Passeriformes,Phylloscopidae,8.69,FALSE
-Phylloscopus sibillatrix,B368,Phylloscopus sibillatrix,Aves,Passeriformes,Phylloscopidae,32670.667698441484,TRUE
+Phylloscopus sibillatrix,B368,Phylloscopus sibillatrix,Aves,Passeriformes,Phylloscopidae,6.459914451383362,TRUE
 Phylloscopus inornatus,B369,Phylloscopus inornatus,Aves,Passeriformes,Phylloscopidae,6.59,FALSE
 Phylloscopus borealis,B370,Phylloscopus borealis,Aves,Passeriformes,Phylloscopidae,10.89,FALSE
 Phylloscopus trochiloides,B371,Phylloscopus trochiloides,Aves,Passeriformes,Phylloscopidae,8.05,FALSE
@@ -477,7 +477,7 @@ Sylvia communis,B374,Sylvia communis,Aves,Passeriformes,Sylviidae,15.1,FALSE
 Sylvia curruca,B375,Sylvia curruca,Aves,Passeriformes,Sylviidae,11.44,FALSE
 Sylvia nisoria,B376,Sylvia nisoria,Aves,Passeriformes,Sylviidae,22.5,FALSE
 Sylvia hortensis,B377,Sylvia hortensis,Aves,Passeriformes,Sylviidae,21.9,FALSE
-Sylvia ruppeli,B378,Sylvia ruppeli,Aves,Passeriformes,Sylviidae,1907.6517802643511,TRUE
+Sylvia ruppeli,B378,Sylvia ruppeli,Aves,Passeriformes,Sylviidae,70.11584552138972,TRUE
 Sylvia cantillans,B379,Sylvia cantillans,Aves,Passeriformes,Sylviidae,9.6,FALSE
 Sylvia melanocephala,B380,Sylvia melanocephala,Aves,Passeriformes,Sylviidae,11.7,FALSE
 Sylvia melanothorax,B381,Sylvia melanothorax,Aves,Passeriformes,Sylviidae,11.4,FALSE
@@ -513,15 +513,15 @@ Oenanthe cypriaca,B410,Oenanthe cypriaca,Aves,Passeriformes,Muscicapidae,16.61,F
 Oenanthe isabellina,B411,Oenanthe isabellina,Aves,Passeriformes,Muscicapidae,29.4,FALSE
 Panurus biarmicus,B412,Panurus biarmicus,Aves,Passeriformes,Panuridae,13.82,FALSE
 Aegithalos caudatus,B413,NA,NA,NA,NA,8.6,FALSE
-Poecile lugubris,B414,Poecile lugubris,Aves,Passeriformes,Paridae,24.064728221097333,TRUE
-Poecile palustris,B415,Poecile palustris,Aves,Passeriformes,Paridae,1.5641490519367034,TRUE
-Poecile montanus,B416,Poecile montanus,Aves,Passeriformes,Paridae,4.126959922605881,TRUE
-Poecile cinctus,B417,Poecile cinctus,Aves,Passeriformes,Paridae,475.5035733516858,TRUE
-Periparus ater,B418,Periparus ater,Aves,Passeriformes,Paridae,39.10558745254504,TRUE
-Lophophanes cristatus,B419,Lophophanes cristatus,Aves,Passeriformes,Paridae,275.801431080982,TRUE
+Poecile lugubris,B414,Poecile lugubris,Aves,Passeriformes,Paridae,13.282780274120073,TRUE
+Poecile palustris,B415,Poecile palustris,Aves,Passeriformes,Paridae,9.882428191675082,TRUE
+Poecile montanus,B416,Poecile montanus,Aves,Passeriformes,Paridae,170.1591619476348,TRUE
+Poecile cinctus,B417,Poecile cinctus,Aves,Passeriformes,Paridae,1153.288662685824,TRUE
+Periparus ater,B418,Periparus ater,Aves,Passeriformes,Paridae,47.28635224646866,TRUE
+Lophophanes cristatus,B419,Lophophanes cristatus,Aves,Passeriformes,Paridae,4.094284495913288,TRUE
 Parus major,B420,Parus major,Aves,Passeriformes,Paridae,16.25,FALSE
-Cyanistes caeruleus,B421,Cyanistes caeruleus,Aves,Passeriformes,Paridae,82.27740816444549,TRUE
-Cyanistes cyanus,B422,Cyanistes cyanus,Aves,Passeriformes,Paridae,77.54550587751811,TRUE
+Cyanistes caeruleus,B421,Cyanistes caeruleus,Aves,Passeriformes,Paridae,52.512373206329315,TRUE
+Cyanistes cyanus,B422,Cyanistes cyanus,Aves,Passeriformes,Paridae,87.88402920788108,TRUE
 Sitta europaea,B423,Sitta europaea,Aves,Passeriformes,Sittidae,20.37,FALSE
 Sitta whiteheadi,B424,Sitta whiteheadi,Aves,Passeriformes,Sittidae,11.8,FALSE
 Sitta krueperi,B425,Sitta krueperi,Aves,Passeriformes,Sittidae,12.4,FALSE
@@ -545,11 +545,11 @@ Pica pica,B442,Pica pica,Aves,Passeriformes,Corvidae,217.48,FALSE
 Nucifraga caryocatactes,B443,Nucifraga caryocatactes,Aves,Passeriformes,Corvidae,182.51,FALSE
 Pyrrhocorax pyrrhocorax,B444,Pyrrhocorax pyrrhocorax,Aves,Passeriformes,Corvidae,276.68,FALSE
 Pyrrhocorax graculus,B445,Pyrrhocorax graculus,Aves,Passeriformes,Corvidae,211,FALSE
-Coloeus monedula,B446,Coloeus monedula,Aves,Passeriformes,Corvidae,1935.5059045000548,TRUE
+Coloeus monedula,B446,Coloeus monedula,Aves,Passeriformes,Corvidae,61.77525380129331,TRUE
 Corvus frugilegus,B447,Corvus frugilegus,Aves,Passeriformes,Corvidae,452.1,FALSE
 Corvus corone,B448,Corvus corone,Aves,Passeriformes,Corvidae,570,FALSE
 Corvus corax,B449,Corvus corax,Aves,Passeriformes,Corvidae,927.97,FALSE
-Pastor roseus,B450,Pastor roseus,Aves,Passeriformes,Sturnidae,49.80950187557733,TRUE
+Pastor roseus,B450,Pastor roseus,Aves,Passeriformes,Sturnidae,152.7541494824896,TRUE
 Sturnus vulgaris,B451,Sturnus vulgaris,Aves,Passeriformes,Sturnidae,77.14,FALSE
 Sturnus unicolor,B452,Sturnus unicolor,Aves,Passeriformes,Sturnidae,83.66,FALSE
 Emberiza citrinella,B453,Emberiza citrinella,Aves,Passeriformes,Emberizidae,29.7,FALSE
@@ -567,7 +567,7 @@ Emberiza melanocephala,B464,Emberiza melanocephala,Aves,Passeriformes,Emberizida
 Emberiza bruniceps,B465,Emberiza bruniceps,Aves,Passeriformes,Emberizidae,24.8,FALSE
 Emberiza pallasi,B466,Emberiza pallasi,Aves,Passeriformes,Emberizidae,13.96,FALSE
 Emberiza schoeniclus,B467,Emberiza schoeniclus,Aves,Passeriformes,Emberizidae,18.4,FALSE
-Emberiza calandra,B468,Emberiza calandra,Aves,Passeriformes,Emberizidae,3.1594226813169373,TRUE
+Emberiza calandra,B468,Emberiza calandra,Aves,Passeriformes,Emberizidae,0.5379495946232715,TRUE
 Calcarius lapponicus,B469,Calcarius lapponicus,Aves,Passeriformes,Calcariidae,27.84,FALSE
 Plectrophenax nivalis,B470,Plectrophenax nivalis,Aves,Passeriformes,Calcariidae,42.2,FALSE
 Fringilla coelebs,B471,Fringilla coelebs,Aves,Passeriformes,Fringillidae,23.81,FALSE
@@ -579,13 +579,13 @@ Loxia pytyopsittacus,B476,Loxia pytyopsittacus,Aves,Passeriformes,Fringillidae,5
 Loxia scotica,B477,Loxia scotica,Aves,Passeriformes,Fringillidae,43.17,FALSE
 Loxia curvirostra,B478,Loxia curvirostra,Aves,Passeriformes,Fringillidae,38.29,FALSE
 Loxia leucoptera,B479,Loxia leucoptera,Aves,Passeriformes,Fringillidae,28.69,FALSE
-Chloris chloris,B480,Chloris chloris,Aves,Passeriformes,Fringillidae,243.33260470801218,TRUE
-Acanthis flammea,B481,Acanthis flammea,Aves,Passeriformes,Fringillidae,5.564561356860984,TRUE
-Acanthis hornemanni,B482,Acanthis hornemanni,Aves,Passeriformes,Fringillidae,11.017735996380196,TRUE
-Spinus spinus,B483,Spinus spinus,Aves,Passeriformes,Fringillidae,146.21945420715278,TRUE
+Chloris chloris,B480,Chloris chloris,Aves,Passeriformes,Fringillidae,8684.257186275683,TRUE
+Acanthis flammea,B481,Acanthis flammea,Aves,Passeriformes,Fringillidae,24.775737164445907,TRUE
+Acanthis hornemanni,B482,Acanthis hornemanni,Aves,Passeriformes,Fringillidae,639.7692707059126,TRUE
+Spinus spinus,B483,Spinus spinus,Aves,Passeriformes,Fringillidae,4.049350924768188,TRUE
 Carduelis carduelis,B484,Carduelis carduelis,Aves,Passeriformes,Fringillidae,16,FALSE
-Linaria flavirostris,B485,Linaria flavirostris,Aves,Passeriformes,Fringillidae,4.370575621154729,TRUE
-Linaria cannabina,B486,Linaria cannabina,Aves,Passeriformes,Fringillidae,848.6025581544029,TRUE
+Linaria flavirostris,B485,Linaria flavirostris,Aves,Passeriformes,Fringillidae,33.64813511331929,TRUE
+Linaria cannabina,B486,Linaria cannabina,Aves,Passeriformes,Fringillidae,20.681311186244688,TRUE
 Serinus pusillus,B487,Serinus pusillus,Aves,Passeriformes,Fringillidae,11.54,FALSE
 Serinus serinus,B488,Serinus serinus,Aves,Passeriformes,Fringillidae,11.2,FALSE
 Serinus canaria,B489,Serinus canaria,Aves,Passeriformes,Fringillidae,24.3,FALSE
@@ -595,16 +595,16 @@ Pyrrhula murina,B492,Pyrrhula murina,Aves,Passeriformes,Fringillidae,30,FALSE
 Coccothraustes coccothraustes,B493,Coccothraustes coccothraustes,Aves,Passeriformes,Fringillidae,56.63,FALSE
 Rhodopechys sanguineus,B494,Rhodopechys sanguineus,Aves,Passeriformes,Fringillidae,38.14,FALSE
 Bucanetes githagineus,B495,Bucanetes githagineus,Aves,Passeriformes,Fringillidae,19.6,FALSE
-Bucanetes mongolicus,B496,Bucanetes mongolicus,Aves,Passeriformes,Fringillidae,5.878764267034763,TRUE
-Rhodospiza obsoleta,B497,Rhodospiza obsoleta,Aves,Passeriformes,Fringillidae,17.161299659576876,TRUE
-Passer italiae,B498,Passer italiae,Aves,Passeriformes,Passeridae,1.307645372594041,TRUE
+Bucanetes mongolicus,B496,Bucanetes mongolicus,Aves,Passeriformes,Fringillidae,456.1007287758265,TRUE
+Rhodospiza obsoleta,B497,Rhodospiza obsoleta,Aves,Passeriformes,Fringillidae,1855.858126763936,TRUE
+Passer italiae,B498,Passer italiae,Aves,Passeriformes,Passeridae,6.845755135402123,TRUE
 Passer domesticus,B499,Passer domesticus,Aves,Passeriformes,Passeridae,26.51,FALSE
 Passer hispaniolensis,B500,Passer hispaniolensis,Aves,Passeriformes,Passeridae,24.2,FALSE
 Passer moabiticus,B501,Passer moabiticus,Aves,Passeriformes,Passeridae,16.46,FALSE
 Passer montanus,B502,Passer montanus,Aves,Passeriformes,Passeridae,21.39,FALSE
-Gymnoris xanthocollis,B503,Gymnoris xanthocollis,Aves,Passeriformes,Passeridae,108.61044805860917,TRUE
+Gymnoris xanthocollis,B503,Gymnoris xanthocollis,Aves,Passeriformes,Passeridae,91.40436232709642,TRUE
 Petronia petronia,B504,Petronia petronia,Aves,Passeriformes,Passeridae,30.2,FALSE
-Carpospiza brachydactyla,B505,Carpospiza brachydactyla,Aves,Passeriformes,Passeridae,4.098502429739217,TRUE
+Carpospiza brachydactyla,B505,Carpospiza brachydactyla,Aves,Passeriformes,Passeridae,21.839256944469263,TRUE
 Montifringilla nivalis,B506,Montifringilla nivalis,Aves,Passeriformes,Passeridae,36.9,FALSE
 Galerida theklae,B507,Galerida theklae,Aves,Passeriformes,Alaudidae,38.17,FALSE
 Columba bollii,B508,Columba bollii,Aves,Columbiformes,Columbidae,308.46,FALSE
@@ -624,7 +624,7 @@ Allactaga major,M7,Allactaga major,Mammalia,Rodentia,Dipodidae,350,FALSE
 Allactaga sibirica,M8,Allactaga sibirica,Mammalia,Rodentia,Dipodidae,97.5,FALSE
 Allactaga williamsi,M9,Allactaga williamsi,Mammalia,Rodentia,Dipodidae,116.74,FALSE
 Allocricetulus eversmanni,M10,Allocricetulus eversmanni,Mammalia,Rodentia,Cricetidae,115.56,FALSE
-Alopex lagopus,M11,Vulpes lagopus,Mammalia,Carnivora,Canidae,96.7612578254814,TRUE
+Alopex lagopus,M11,Vulpes lagopus,Mammalia,Carnivora,Canidae,47.083299341157236,TRUE
 Apodemus agrarius,M12,Apodemus agrarius,Mammalia,Rodentia,Muridae,23.3,FALSE
 Apodemus alpicola,M13,Apodemus alpicola,Mammalia,Rodentia,Muridae,28.06,FALSE
 Apodemus epimelas,M14,Apodemus epimelas,Mammalia,Rodentia,Muridae,28.07,FALSE
@@ -645,9 +645,9 @@ Bison bonasus,M28,Bison bonasus,Mammalia,Artiodactyla,Bovidae,500000,FALSE
 Calomyscus urartensis,M29,Calomyscus urartensis,Mammalia,Rodentia,Calomyscidae,21.22,FALSE
 Canis aureus,M30,Canis aureus,Mammalia,Carnivora,Canidae,10345.23,FALSE
 Canis lupus,M31,Canis lupus,Mammalia,Carnivora,Canidae,32183.33,FALSE
-Capra hircus aegagrus,M32,Capra hircus aegagrus,Mammalia,Artiodactyla,Bovidae,666.324986858511,TRUE
+Capra hircus aegagrus,M32,Capra hircus aegagrus,Mammalia,Artiodactyla,Bovidae,13.922195514354302,TRUE
 Capra caucasica,M33,Capra caucasica,Mammalia,Artiodactyla,Bovidae,55000,FALSE
-Capra caucasica cylindricornis,M34,Capra caucasica cylindricornis,Mammalia,Artiodactyla,Bovidae,194.7780797731421,TRUE
+Capra caucasica cylindricornis,M34,Capra caucasica cylindricornis,Mammalia,Artiodactyla,Bovidae,8.493196191109595,TRUE
 Capra ibex,M36,Capra ibex,Mammalia,Artiodactyla,Bovidae,85166.51,FALSE
 Capra pyrenaica,M37,Capra pyrenaica,Mammalia,Artiodactyla,Bovidae,50000,FALSE
 Capreolus capreolus,M38,Capreolus capreolus,Mammalia,Artiodactyla,Cervidae,22500,FALSE
@@ -682,7 +682,7 @@ Eliomys melanurus,M67,Eliomys melanurus,Mammalia,Rodentia,Gliridae,98.7,FALSE
 Eliomys quercinus,M68,Eliomys quercinus,Mammalia,Rodentia,Gliridae,115,FALSE
 Ellobius lutescens,M69,Ellobius lutescens,Mammalia,Rodentia,Cricetidae,117.31,FALSE
 Ellobius talpinus,M70,Ellobius talpinus,Mammalia,Rodentia,Cricetidae,40,FALSE
-Eptesicus gobiensis bobrinskoi,M71,Eptesicus gobiensis bobrinskoi,Mammalia,Chiroptera,Vespertilionidae,15.525797788426733,TRUE
+Eptesicus gobiensis bobrinskoi,M71,Eptesicus gobiensis bobrinskoi,Mammalia,Chiroptera,Vespertilionidae,6.983781651332196,TRUE
 Eptesicus bottae,M72,Eptesicus bottae,Mammalia,Chiroptera,Vespertilionidae,14.23,FALSE
 Eptesicus nilssonii,M73,Eptesicus nilssonii,Mammalia,Chiroptera,Vespertilionidae,10.72,FALSE
 Eptesicus serotinus,M74,Eptesicus serotinus,Mammalia,Chiroptera,Vespertilionidae,22.86,FALSE
@@ -755,9 +755,9 @@ Microtus levis,M141,Microtus levis,Mammalia,Rodentia,Cricetidae,35.49,FALSE
 Microtus liechtensteini,M142,Microtus liechtensteini,Mammalia,Rodentia,Cricetidae,37.99,FALSE
 Microtus lusitanicus,M143,Microtus lusitanicus,Mammalia,Rodentia,Cricetidae,24.82,FALSE
 Microtus majori,M144,Microtus majori,Mammalia,Rodentia,Cricetidae,18.2,FALSE
-Microtus middendorffi,M145,Microtus middendorffi,Mammalia,Rodentia,Cricetidae,0.14240555972530208,TRUE
+Microtus middendorffi,M145,Microtus middendorffi,Mammalia,Rodentia,Cricetidae,21.599788676047204,TRUE
 Microtus multiplex,M146,Microtus multiplex,Mammalia,Rodentia,Cricetidae,23.17,FALSE
-Microtus daghestanicus nasarovi,M147,Microtus daghestanicus,Mammalia,Rodentia,Cricetidae,11.393136876119442,TRUE
+Microtus daghestanicus nasarovi,M147,Microtus daghestanicus,Mammalia,Rodentia,Cricetidae,137.40391579264426,TRUE
 Microtus oeconomus,M148,Microtus oeconomus,Mammalia,Rodentia,Cricetidae,34.38,FALSE
 Microtus savii,M149,Microtus savii,Mammalia,Rodentia,Cricetidae,20,FALSE
 Microtus schidlovskii,M150,Microtus schidlovskii,Mammalia,Rodentia,Cricetidae,37.99,FALSE
@@ -765,9 +765,9 @@ Microtus socialis,M151,Microtus socialis,Mammalia,Rodentia,Cricetidae,48,FALSE
 Microtus subterraneus,M152,Microtus subterraneus,Mammalia,Rodentia,Cricetidae,19.5,FALSE
 Microtus tatricus,M153,Microtus tatricus,Mammalia,Rodentia,Cricetidae,40,FALSE
 Microtus thomasi,M154,Microtus thomasi,Mammalia,Rodentia,Cricetidae,25.67,FALSE
-Miniopterus schreibersii fuliginosus,M155,Miniopterus fuliginosus,Mammalia,Chiroptera,Miniopteridae,69.3029011848754,TRUE
+Miniopterus schreibersii fuliginosus,M155,Miniopterus fuliginosus,Mammalia,Chiroptera,Miniopteridae,1840.701124008655,TRUE
 Miniopterus schreibersii,M156,Miniopterus schreibersii,Mammalia,Chiroptera,Miniopteridae,11.46,FALSE
-Mus cypriacus,M157,Mus cypriacus,Mammalia,Rodentia,Muridae,93.67863829358873,TRUE
+Mus cypriacus,M157,Mus cypriacus,Mammalia,Rodentia,Muridae,109.68514458453673,TRUE
 Mus macedonicus,M158,Mus macedonicus,Mammalia,Rodentia,Muridae,15,FALSE
 Mus musculus,M159,Mus musculus,Mammalia,Rodentia,Muridae,16.25,FALSE
 Mus spicilegus,M160,Mus spicilegus,Mammalia,Rodentia,Muridae,14,FALSE
@@ -786,7 +786,7 @@ Myomimus roachi,M172,Myomimus roachi,Mammalia,Rodentia,Gliridae,36.99,FALSE
 Myomimus setzeri,M173,Myomimus setzeri,Mammalia,Rodentia,Gliridae,37.74,FALSE
 Myopus schisticolor,M174,Myopus schisticolor,Mammalia,Rodentia,Cricetidae,25,FALSE
 Myotis alcathoe,M175,Myotis alcathoe,Mammalia,Chiroptera,Vespertilionidae,7.74,FALSE
-Myotis aurascens,M176,Myotis davidii,Mammalia,Chiroptera,Vespertilionidae,1226.6305283175486,TRUE
+Myotis aurascens,M176,Myotis davidii,Mammalia,Chiroptera,Vespertilionidae,1.9400314138945518,TRUE
 Myotis bechsteinii,M177,Myotis bechsteinii,Mammalia,Chiroptera,Vespertilionidae,9.47,FALSE
 Myotis blythii,M178,Myotis blythii,Mammalia,Chiroptera,Vespertilionidae,22.47,FALSE
 Myotis brandtii,M179,Myotis brandtii,Mammalia,Chiroptera,Vespertilionidae,5.3,FALSE
@@ -813,7 +813,7 @@ Ochotona pusilla,M200,Ochotona pusilla,Mammalia,Lagomorpha,Ochotonidae,142.5,FAL
 Oryctolagus cuniculus,M201,Oryctolagus cuniculus,Mammalia,Lagomorpha,Leporidae,1832.22,FALSE
 Felis manul,M202,Felis manul,Mammalia,Carnivora,Felidae,3050,FALSE
 Ovis aries,M203,Ovis aries,Mammalia,Artiodactyla,Bovidae,50000,FALSE
-Ovis aries orientalis,M204,Ovis aries orientalis,Mammalia,Artiodactyla,Bovidae,13.987450019055375,TRUE
+Ovis aries orientalis,M204,Ovis aries orientalis,Mammalia,Artiodactyla,Bovidae,162.1239824059118,TRUE
 Panthera pardus,M205,Panthera pardus,Mammalia,Carnivora,Felidae,52038.22,FALSE
 Pipistrellus kuhlii,M206,Pipistrellus kuhlii,Mammalia,Chiroptera,Vespertilionidae,5.93,FALSE
 Pipistrellus maderensis,M207,Pipistrellus maderensis,Mammalia,Chiroptera,Vespertilionidae,6.2,FALSE
@@ -823,7 +823,7 @@ Pipistrellus pygmaeus,M210,Pipistrellus pygmaeus,Mammalia,Chiroptera,Vespertilio
 Plecotus auritus,M211,Plecotus auritus,Mammalia,Chiroptera,Vespertilionidae,7.83,FALSE
 Plecotus austriacus,M212,Plecotus austriacus,Mammalia,Chiroptera,Vespertilionidae,7.3,FALSE
 Plecotus kolombatovici,M213,Plecotus kolombatovici,Mammalia,Chiroptera,Vespertilionidae,7.56,FALSE
-Plecotus macrobullaris,M214,Plecotus macrobullaris,Mammalia,Chiroptera,Vespertilionidae,57.238833642867135,TRUE
+Plecotus macrobullaris,M214,Plecotus macrobullaris,Mammalia,Chiroptera,Vespertilionidae,6.269145658104596,TRUE
 Plecotus sardus,M215,Plecotus sardus,Mammalia,Chiroptera,Vespertilionidae,7.56,FALSE
 Plecotus teneriffae,M216,Plecotus teneriffae,Mammalia,Chiroptera,Vespertilionidae,8.33,FALSE
 Prometheomys schaposchnikowi,M217,Prometheomys schaposchnikowi,Mammalia,Rodentia,Cricetidae,75,FALSE
@@ -880,7 +880,7 @@ Spermophilus major,M270,Spermophilus major,Mammalia,Rodentia,Sciuridae,269.07,FA
 Spermophilus musicus,M271,Spermophilus musicus,Mammalia,Rodentia,Sciuridae,284.72,FALSE
 Spermophilus pygmaeus,M272,Spermophilus pygmaeus,Mammalia,Rodentia,Sciuridae,136,FALSE
 Spermophilus suslicus,M273,Spermophilus suslicus,Mammalia,Rodentia,Sciuridae,252,FALSE
-Spermophilus taurensis,M274,Spermophilus taurensis,Mammalia,Rodentia,Sciuridae,392.3508114598106,TRUE
+Spermophilus taurensis,M274,Spermophilus taurensis,Mammalia,Rodentia,Sciuridae,137.37557060842482,TRUE
 Spermophilus xanthoprymnus,M275,Spermophilus xanthoprymnus,Mammalia,Rodentia,Sciuridae,289.67,FALSE
 Stylodipus telum,M276,Stylodipus telum,Mammalia,Rodentia,Dipodidae,55,FALSE
 Suncus etruscus,M277,Suncus etruscus,Mammalia,Soricomorpha,Soricidae,2.13,FALSE
@@ -921,17 +921,17 @@ Asaccus elisae,R16,Asaccus elisae,Reptilia,Squamata,Phyllodactylidae,7.194984041
 Blanus cinereus,R17,Blanus cinereus,Reptilia,Squamata,Blanidae,16.57393487459795,FALSE
 Blanus strauchi,R18,Blanus strauchi,Reptilia,Squamata,Blanidae,9.736580054817761,FALSE
 Chalcides bedriagai,R19,Chalcides bedriagai,Reptilia,Squamata,Scincidae,20.035683472238222,FALSE
-Chalcides sexlineatus bistriatus,R20,Chalcides sexlineatus bistriatus,Reptilia,Squamata,Scincidae,137.08689209395862,TRUE
+Chalcides sexlineatus bistriatus,R20,Chalcides sexlineatus bistriatus,Reptilia,Squamata,Scincidae,1.442841392959566,TRUE
 Chalcides chalcides,R21,Chalcides chalcides,Reptilia,Squamata,Scincidae,34.16064773949282,FALSE
 Chalcides ocellatus,R22,Chalcides ocellatus,Reptilia,Squamata,Scincidae,79.72576129894401,FALSE
 Chalcides sexlineatus,R23,Chalcides sexlineatus,Reptilia,Squamata,Scincidae,20.840399648060494,FALSE
-Chalcides simonyi,R24,Chalcides simonyi,Reptilia,Squamata,Scincidae,54.73671544268436,TRUE
+Chalcides simonyi,R24,Chalcides simonyi,Reptilia,Squamata,Scincidae,95.87779883272982,TRUE
 Chalcides striatus,R25,Chalcides striatus,Reptilia,Squamata,Scincidae,34.16064773949282,FALSE
 Chalcides viridanus,R26,Chalcides viridanus,Reptilia,Squamata,Scincidae,48.988503743843985,FALSE
 Chamaeleo chamaeleon,R27,Chamaeleo chamaeleon,Reptilia,Squamata,Chamaeleonidae,95.63197148628706,FALSE
 Coronella austriaca,R28,Coronella austriaca,Reptilia,Squamata,Colubridae,66.51896404929404,FALSE
 Coronella girondica,R29,Coronella girondica,Reptilia,Squamata,Colubridae,66.51896404929404,FALSE
-Cyrtopodion caspium,R30,Tenuidactylus caspius,Reptilia,Squamata,Gekkonidae,14.441807545019977,TRUE
+Cyrtopodion caspium,R30,Tenuidactylus caspius,Reptilia,Squamata,Gekkonidae,252.97902884043955,TRUE
 Mediodactylus heterocercus,R31,Mediodactylus heterocercus,Reptilia,Squamata,Gekkonidae,3.1345242422553907,FALSE
 Mediodactylus kotschyi,R32,Mediodactylus kotschyi,Reptilia,Squamata,Gekkonidae,3.84632889948261,FALSE
 Mediodactylus russowii,R33,Mediodactylus russowii,Reptilia,Squamata,Gekkonidae,3.3383539500777224,FALSE
@@ -948,12 +948,12 @@ Darevskia derjugini,R43,Darevskia derjugini,Reptilia,Squamata,Lacertidae,6.41072
 Darevskia dryada,R44,Darevskia dryada,Reptilia,Squamata,Lacertidae,8.812284486294189,FALSE
 Darevskia lindholmi,R45,Darevskia lindholmi,Reptilia,Squamata,Lacertidae,9.779255388025643,FALSE
 Darevskia mixta,R46,Darevskia mixta,Reptilia,Squamata,Lacertidae,5.8459347146508405,FALSE
-Darevskia raddei nairensis,R47,Darevskia raddei nairensis,Reptilia,Squamata,Lacertidae,202.72856639254704,TRUE
+Darevskia raddei nairensis,R47,Darevskia raddei nairensis,Reptilia,Squamata,Lacertidae,137.1186127643663,TRUE
 Darevskia parvula,R48,Darevskia parvula,Reptilia,Squamata,Lacertidae,5.650966464535437,FALSE
 Darevskia portschinskii,R49,Darevskia portschinskii,Reptilia,Squamata,Lacertidae,7.010463669587117,FALSE
 Darevskia praticola,R50,Darevskia praticola,Reptilia,Squamata,Lacertidae,6.706163753809758,FALSE
 Darevskia raddei,R51,Darevskia raddei,Reptilia,Squamata,Lacertidae,10.169062369892469,FALSE
-Darevskia rostombekovi,R52,Darevskia rostombekowi,Reptilia,Squamata,Lacertidae,60.80075036426106,TRUE
+Darevskia rostombekovi,R52,Darevskia rostombekowi,Reptilia,Squamata,Lacertidae,60.50138971214256,TRUE
 Darevskia rudis,R53,Darevskia rudis,Reptilia,Squamata,Lacertidae,15.9484759197419,FALSE
 Darevskia sapphirina,R54,Darevskia sapphirina,Reptilia,Squamata,Lacertidae,4.35097611291516,FALSE
 Darevskia saxicola,R55,Darevskia saxicola,Reptilia,Squamata,Lacertidae,15.673585812796524,FALSE
@@ -979,7 +979,7 @@ Zamenis hohenackeri,R74,Zamenis hohenackeri,Reptilia,Squamata,Colubridae,58.3963
 Zamenis lineatus,R75,Zamenis lineatus,Reptilia,Squamata,Colubridae,450.9307075839481,FALSE
 Zamenis longissimus,R76,Zamenis longissimus,Reptilia,Squamata,Colubridae,681.263558978744,FALSE
 Elaphe quatuorlineata,R77,Elaphe quatuorlineata,Reptilia,Squamata,Colubridae,681.263558978744,FALSE
-Zamenis scalaris,R78,Zamenis scalaris,Reptilia,Squamata,Colubridae,79.676898194305707,TRUE
+Zamenis scalaris,R78,Zamenis scalaris,Reptilia,Squamata,Colubridae,18.51168914966747,TRUE
 Zamenis situla,R79,Zamenis situla,Reptilia,Squamata,Colubridae,117.21953655481303,FALSE
 Emys orbicularis,R80,Emys orbicularis,Reptilia,Testudines,Emydidae,1599.1887060386593,FALSE
 Eremias arguta,R81,Eremias arguta,Reptilia,Squamata,Lacertidae,22.8559880337543,FALSE
@@ -994,7 +994,7 @@ Eryx miliaris,R89,Eryx miliaris,Reptilia,Squamata,Boidae,367.30108902206786,FALS
 Euleptes europaea,R90,Euleptes europaea,Reptilia,Squamata,Sphaerodactylidae,2.0992367128829725,FALSE
 Eumeces schneideri,R91,Eumeces schneiderii,Reptilia,Squamata,Scincidae,159.68249031515037,FALSE
 Gallotia atlantica,R92,Gallotia atlantica,Reptilia,Squamata,Lacertidae,28.683589728040072,FALSE
-Gallotia auaritae,R93,Gallotia auaritae,Reptilia,Squamata,Lacertidae,0.6178129747159222,TRUE
+Gallotia auaritae,R93,Gallotia auaritae,Reptilia,Squamata,Lacertidae,1.3453295404026275,TRUE
 Gallotia bravoana,R94,Gallotia bravoana,Reptilia,Squamata,Lacertidae,164.01823645664,FALSE
 Gallotia caesaris,R95,Gallotia caesaris,Reptilia,Squamata,Lacertidae,31.099120706451266,FALSE
 Gallotia galloti,R96,Gallotia galloti,Reptilia,Squamata,Lacertidae,68.42219069248848,FALSE
@@ -1005,7 +1005,7 @@ Gloydius intermedius,R100,Gloydius intermedius,Reptilia,Squamata,Viperidae,262.4
 Hellenolacerta graeca,R101,Hellenolacerta graeca,Reptilia,Squamata,Lacertidae,14.14865803294883,FALSE
 Hemidactylus turcicus,R102,Hemidactylus turcicus,Reptilia,Squamata,Gekkonidae,4.870906644612689,FALSE
 Hemorrhois hippocrepis,R103,Hemorrhois hippocrepis,Reptilia,Squamata,Colubridae,681.263558978744,FALSE
-Dolichophis cypriensis,R104,Hierophis cypriensis,Reptilia,Squamata,Colubridae,34.87186435384723,TRUE
+Dolichophis cypriensis,R104,Hierophis cypriensis,Reptilia,Squamata,Colubridae,2.099667373902887,TRUE
 Hierophis gemonensis,R105,Hierophis gemonensis,Reptilia,Squamata,Colubridae,219.38458716027827,FALSE
 Hierophis viridiflavus,R106,Hierophis viridiflavus,Reptilia,Squamata,Colubridae,386.5989195974214,FALSE
 Iberolacerta aranica,R107,Iberolacerta aranica,Reptilia,Squamata,Lacertidae,6.973475444938353,FALSE
@@ -1028,7 +1028,7 @@ Timon lepidus,R123,Timon lepidus,Reptilia,Squamata,Lacertidae,383.3419520223104,
 Lacerta media,R124,Lacerta media,Reptilia,Squamata,Lacertidae,91.48672243051588,FALSE
 Dinarolacerta mosorensis,R125,Dinarolacerta mosorensis,Reptilia,Squamata,Lacertidae,11.830920934516175,FALSE
 Dinarolacerta montenegrina,R126,Dinarolacerta montenegrina,Reptilia,Squamata,Lacertidae,6.067724069938159,FALSE
-Anatololacerta oertzeni,R127,Anatololacerta anatolica,Reptilia,Squamata,Lacertidae,0.8090672811531084,TRUE
+Anatololacerta oertzeni,R127,Anatololacerta anatolica,Reptilia,Squamata,Lacertidae,903.8430292040003,TRUE
 Dalmatolacerta oxycephala,R128,Dalmatolacerta oxycephala,Reptilia,Squamata,Lacertidae,8.191570022364377,FALSE
 Lacerta pamphylica,R129,Lacerta pamphylica,Reptilia,Squamata,Lacertidae,39.14387870435329,FALSE
 Parvilacerta parva,R130,Parvilacerta parva,Reptilia,Squamata,Lacertidae,5.576322413680735,FALSE
@@ -1080,12 +1080,12 @@ Podarcis muralis,R175,Podarcis muralis,Reptilia,Squamata,Lacertidae,10.979212049
 Podarcis peloponnesiacus,R176,Podarcis peloponnesiacus,Reptilia,Squamata,Lacertidae,14.14865803294883,FALSE
 Podarcis pityusensis,R177,Podarcis pityusensis,Reptilia,Squamata,Lacertidae,12.725201793164754,FALSE
 Podarcis raffoneae,R178,Podarcis raffonei,Reptilia,Squamata,Lacertidae,14.14865803294883,FALSE
-Podarcis sicula,R179,Podarcis siculus,Reptilia,Squamata,Lacertidae,13.96486424292999,TRUE
+Podarcis sicula,R179,Podarcis siculus,Reptilia,Squamata,Lacertidae,4328.643124696887,TRUE
 Podarcis tauricus,R180,Podarcis tauricus,Reptilia,Squamata,Lacertidae,17.303388110374065,FALSE
 Podarcis tiliguerta,R181,Podarcis tiliguerta,Reptilia,Squamata,Lacertidae,15.153791725900295,FALSE
 Podarcis vaucheri,R182,Podarcis vaucheri,Reptilia,Squamata,Lacertidae,5.062025632989812,FALSE
 Podarcis waglerianus,R183,Podarcis waglerianus,Reptilia,Squamata,Lacertidae,10.169062369892469,FALSE
-Psammodromus manuelae,R184,Psammodromus algirus,Reptilia,Squamata,Lacertidae,182.73385895289255,TRUE
+Psammodromus manuelae,R184,Psammodromus algirus,Reptilia,Squamata,Lacertidae,288.29181400424625,TRUE
 Psammodromus hispanicus,R185,Psammodromus hispanicus,Reptilia,Squamata,Lacertidae,4.129551323068206,FALSE
 Pseudopus apodus,R186,Pseudopus apodus,Reptilia,Squamata,Anguidae,586.1837258458922,FALSE
 Rafetus euphraticus,R187,Rafetus euphraticus,Reptilia,Testudines,Trionychidae,24993.29584772676,FALSE
@@ -1102,7 +1102,7 @@ Testudo hermanni,R197,Testudo hermanni,Reptilia,Testudines,Testudinidae,7363.232
 Emys trinacris,R198,Emys trinacris,Reptilia,Testudines,Emydidae,548.5616844084533,FALSE
 Testudo marginata,R199,Testudo marginata,Reptilia,Testudines,Testudinidae,10955.807075214303,FALSE
 Trapelus agilis,R200,Trapelus agilis,Reptilia,Squamata,Agamidae,52.983672425822526,FALSE
-Trapelus lessonae,R201,Trapelus lessonae,Reptilia,Squamata,Agamidae,70.83286213045098,TRUE
+Trapelus lessonae,R201,Trapelus lessonae,Reptilia,Squamata,Agamidae,3.5401609519762554,TRUE
 Trionyx triunguis,R202,Trionyx triunguis,Reptilia,Testudines,Trionychidae,111953.70997255175,FALSE
 Xerotyphlops vermicularis,R203,Xerotyphlops vermicularis,Reptilia,Squamata,Typhlopidae,39.57378117580485,FALSE
 Varanus griseus,R204,Varanus griseus,Reptilia,Squamata,Varanidae,5542.068074267331,FALSE
@@ -1115,7 +1115,7 @@ Vipera darevskii,R210,Vipera darevskii,Reptilia,Squamata,Viperidae,41.7498995585
 Vipera dinniki,R211,Vipera dinniki,Reptilia,Squamata,Viperidae,112.2481918760946,FALSE
 Vipera kaznakovi,R212,Vipera kaznakovi,Reptilia,Squamata,Viperidae,184.60152991904508,FALSE
 Vipera latastei,R213,Vipera latastei,Reptilia,Squamata,Viperidae,200.3722454103081,FALSE
-Vipera berus nikolskii,R214,Vipera berus nikolskii,Reptilia,Squamata,Viperidae,967.5702770260954,TRUE
+Vipera berus nikolskii,R214,Vipera berus nikolskii,Reptilia,Squamata,Viperidae,348.1190513668378,TRUE
 Vipera pontica,R215,Vipera,Reptilia,Squamata,Viperidae,117.8745747590937,FALSE
 Vipera transcaucasiana,R216,Vipera transcaucasiana,Reptilia,Squamata,Viperidae,184.60152991904508,FALSE
 Vipera seoanei,R217,Vipera seoanei,Reptilia,Squamata,Viperidae,184.60152991904508,FALSE
@@ -1125,7 +1125,7 @@ Chamaeleo africanus,R220,Chamaeleo africanus,Reptilia,Squamata,Chamaeleonidae,14
 Dolichophis jugularis,R221,Dolichophis jugularis,Reptilia,Squamata,Colubridae,1200.520780750469,FALSE
 Hemorrhois nummifer,R222,Hemorrhois nummifer,Reptilia,Squamata,Colubridae,217.2152732884048,FALSE
 Hemorrhois algirus,R223,Hemorrhois algirus,Reptilia,Squamata,Colubridae,165.31304709772604,FALSE
-Hierophis viridiflavus carbonarius,R224,Hierophis viridiflavus carbonarius,Reptilia,Squamata,Colubridae,5.647244845914797,TRUE
+Hierophis viridiflavus carbonarius,R224,Hierophis viridiflavus carbonarius,Reptilia,Squamata,Colubridae,19.232931235860946,TRUE
 Dolichophis schmidti,R225,Dolichophis schmidti,Reptilia,Squamata,Colubridae,386.5989195974214,FALSE
 Elaphe sauromates,R226,Elaphe sauromates,Reptilia,Squamata,Colubridae,681.263558978744,FALSE
 Vipera renardi,R227,Vipera renardi,Reptilia,Squamata,Viperidae,192.38083039641322,FALSE
@@ -1148,7 +1148,7 @@ Mesalina brevirostris,R245,Mesalina brevirostris,Reptilia,Squamata,Lacertidae,5.
 Telescopus nigriceps,R246,Telescopus nigriceps,Reptilia,Squamata,Colubridae,32.042472849643055,FALSE
 Pseudocerastes persicus,R247,Pseudocerastes persicus,Reptilia,Squamata,Viperidae,652.0233187855376,FALSE
 Letheobia episcopus,R248,Letheobia episcopus,Reptilia,Squamata,Typhlopidae,21.015378871398035,FALSE
-Muhtarophis barani,R249,Muhtarophis barani,Reptilia,Squamata,Colubridae,10.930335753180556,TRUE
+Muhtarophis barani,R249,Muhtarophis barani,Reptilia,Squamata,Colubridae,145.99386748674547,TRUE
 Macroprotodon mauritanicus,R251,Macroprotodon mauritanicus,Reptilia,Squamata,Colubridae,29.854820887660843,FALSE
 Eirenis coronelloides,R252,Eirenis coronelloides,Reptilia,Squamata,Colubridae,7.240895486260831,FALSE
-Psammodromus jeanneae,R253,Psammodromus algirus,Reptilia,Squamata,Lacertidae,14.37665676517955,TRUE
+Psammodromus jeanneae,R253,Psammodromus algirus,Reptilia,Squamata,Lacertidae,481.15854605791577,TRUE

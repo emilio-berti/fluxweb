@@ -6,7 +6,19 @@ library(rnaturalearthhires)
 backbone <- read_csv("data/raw/backbone.csv") #taxonomic backbone
 country <- ne_countries(scale = "small", returnclass = "sf")
 tetra <- read_csv("data/raw/TetraDENSITY_v.1.csv", show_col_types = FALSE) %>% 
-  filter(!is.na(Longitude), !is.na(Latitude)) %>% 
+  filter(!is.na(Longitude), !is.na(Latitude))
+
+# multiply density to standardize as ind/km2
+tetra <- tetra %>% 
+  mutate(Density = modify2(Density, Density_unit, function(x, u) {
+    fact <- switch (u,
+      "ind/ha" = 100,
+      "ind/km2" = 1,
+      "males/ha" = 100 * 2,
+      "pairs/km2" = 2
+    )
+    return ( x * fact )
+  })) %>% 
   transmute(Longitude, Latitude, Density,
             Class, Order, Family,
             Species = paste(Genus, Species))
